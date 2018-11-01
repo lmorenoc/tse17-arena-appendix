@@ -1,0 +1,25 @@
+IMPROVEMENTS:
+- ManagerTeaching and ManagerCourseOfStudy have been changed. The first to allow the visualization of teachings in alphabetic order, the second to show the course of studies in alphabetic order. In particular, changes have been applied to methods ManagerCourseOfStudy.getCourseOfStudyList() and ManagerTeaching.getTeachingsByClassroomId(int).
+
+- Several changes have been applied in the system to implement the Singleton design pattern in the classes accessing the SMOS database. Among the most important changes, all constructors of classes in the smos.storage package should now not be used in favor of the new methods "getInstance()", returning the single existing instance of the class. This resulted in several changes to all methods in the system using classes in smos.storage.
+
+- The method "daysBetweenDates" has been deleted.
+
+BUG FIXES:
+- A bug has been fixed in ManagerRegister: previously it always generated a DuplicatedEntityException when trying to insert a new justification. The modified method is exists.
+
+- A bug has been fixed in ServletUpdateUser: previously all user information were updated, excluding its last name. Changes have been applied to the doGet() method.
+
+- A bug has been fixed in Votes: there were missing checks in the set methods allowing the SMOS user to set negative votes and/or votes higher than 10. In SMOS 2.0 this is no more possible.
+
+NEW FEATURE:
+- SMOS 2.0 also stores the description of each course of study. The bean CourseOfStudy and the ManagerCourseOfStudy class have been changed. 
+
+- SMOS 2.0 also stores the book used in each teaching. The bean Teaching and the ManagerTeaching class have been changed.
+
+- in SMOS 2.0 it is possible to configure several parameters used by the application, like: the used driverMySql, the database path, the database credential, the database parameters, and the text in the footer of the SMOS interface. This is possible thanks to the new ServletInitialize class.
+
+- The students' parents can now visualize the school report, justification, absences, and disciplinary notes of their sons. Crosscutting changes have been applied mainly in the packages: smos.registerManagement
+smos.reportManagement
+smos.userManagement
+Also, several new classes have been added.

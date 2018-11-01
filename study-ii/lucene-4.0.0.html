@@ -1,0 +1,4869 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>Automatic RElease Notes generAtor - LUCENE 4.0.0</title>
+  <script type="text/javascript">
+    function show_hide(block_id) {
+    	new_state = (document.getElementById(block_id).style.display == 'block') ? 'none' : 'block';
+    	document.getElementById(block_id).style.display = new_state;
+    }
+  </script>
+  <style type="text/css">
+    #a0 {
+      display: none;
+    }
+    #a1 {
+      display: none;
+    }
+    #a2 {
+      display: none;
+    }
+    #a3 {
+      display: none;
+    }
+    #a4 {
+      display: none;
+    }
+    #a5 {
+      display: none;
+    }
+    #a6 {
+      display: none;
+    }
+    #a7 {
+      display: none;
+    }
+    #a8 {
+      display: none;
+    }
+    #a9 {
+      display: none;
+    }
+    #a10 {
+      display: none;
+    }
+    #a11 {
+      display: none;
+    }
+    #a12 {
+      display: none;
+    }
+    #a13 {
+      display: none;
+    }
+    #a14 {
+      display: none;
+    }
+    #a15 {
+      display: none;
+    }
+    #a16 {
+      display: none;
+    }
+    #a17 {
+      display: none;
+    }
+    #a18 {
+      display: none;
+    }
+    #a19 {
+      display: none;
+    }
+    #a20 {
+      display: none;
+    }
+    #a21 {
+      display: none;
+    }
+    #a22 {
+      display: none;
+    }
+    #a23 {
+      display: none;
+    }
+    #a24 {
+      display: none;
+    }
+    #a25 {
+      display: none;
+    }
+    #a26 {
+      display: none;
+    }
+    #a27 {
+      display: none;
+    }
+    #a28 {
+      display: none;
+    }
+    #a29 {
+      display: none;
+    }
+    #a30 {
+      display: none;
+    }
+    #a31 {
+      display: none;
+    }
+    #a32 {
+      display: none;
+    }
+    #a33 {
+      display: none;
+    }
+    #a34 {
+      display: none;
+    }
+    #a35 {
+      display: none;
+    }
+    #a36 {
+      display: none;
+    }
+    #a37 {
+      display: none;
+    }
+    #a38 {
+      display: none;
+    }
+    #a39 {
+      display: none;
+    }
+    #a40 {
+      display: none;
+    }
+    #a41 {
+      display: none;
+    }
+    #a42 {
+      display: none;
+    }
+    #a43 {
+      display: none;
+    }
+    #a44 {
+      display: none;
+    }
+    #a45 {
+      display: none;
+    }
+    #a46 {
+      display: none;
+    }
+    #a47 {
+      display: none;
+    }
+    #a48 {
+      display: none;
+    }
+    #a49 {
+      display: none;
+    }
+    #a50 {
+      display: none;
+    }
+    #a51 {
+      display: none;
+    }
+    #a52 {
+      display: none;
+    }
+    #a53 {
+      display: none;
+    }
+    #a54 {
+      display: none;
+    }
+    #a55 {
+      display: none;
+    }
+    #a56 {
+      display: none;
+    }
+    #a57 {
+      display: none;
+    }
+    #a58 {
+      display: none;
+    }
+    #a59 {
+      display: none;
+    }
+    #a60 {
+      display: none;
+    }
+    #a61 {
+      display: none;
+    }
+    #a62 {
+      display: none;
+    }
+    #a63 {
+      display: none;
+    }
+    #a64 {
+      display: none;
+    }
+    #a65 {
+      display: none;
+    }
+    #a66 {
+      display: none;
+    }
+    #a67 {
+      display: none;
+    }
+    #a68 {
+      display: none;
+    }
+    #a69 {
+      display: none;
+    }
+    #a70 {
+      display: none;
+    }
+    #a71 {
+      display: none;
+    }
+    #a72 {
+      display: none;
+    }
+    #a73 {
+      display: none;
+    }
+    #a74 {
+      display: none;
+    }
+    #a75 {
+      display: none;
+    }
+    #a76 {
+      display: none;
+    }
+    #a77 {
+      display: none;
+    }
+    #a78 {
+      display: none;
+    }
+    #a79 {
+      display: none;
+    }
+    #a80 {
+      display: none;
+    }
+    #a81 {
+      display: none;
+    }
+    #a82 {
+      display: none;
+    }
+    #a83 {
+      display: none;
+    }
+    #a84 {
+      display: none;
+    }
+    #a85 {
+      display: none;
+    }
+    #a86 {
+      display: none;
+    }
+    #a87 {
+      display: none;
+    }
+    #a88 {
+      display: none;
+    }
+    #a89 {
+      display: none;
+    }
+    #a90 {
+      display: none;
+    }
+    #a91 {
+      display: none;
+    }
+    #a92 {
+      display: none;
+    }
+    #a93 {
+      display: none;
+    }
+    #a94 {
+      display: none;
+    }
+    #a95 {
+      display: none;
+    }
+    #a96 {
+      display: none;
+    }
+    #a97 {
+      display: none;
+    }
+    #a98 {
+      display: none;
+    }
+    #a99 {
+      display: none;
+    }
+    #a100 {
+      display: none;
+    }
+    #a101 {
+      display: none;
+    }
+    #a102 {
+      display: none;
+    }
+    #a103 {
+      display: none;
+    }
+    #a104 {
+      display: none;
+    }
+    #a105 {
+      display: none;
+    }
+    #a106 {
+      display: none;
+    }
+    #a107 {
+      display: none;
+    }
+    #a108 {
+      display: none;
+    }
+    #a109 {
+      display: none;
+    }
+    #a110 {
+      display: none;
+    }
+    #a111 {
+      display: none;
+    }
+    #a112 {
+      display: none;
+    }
+    #a113 {
+      display: none;
+    }
+    #a114 {
+      display: none;
+    }
+    #a115 {
+      display: none;
+    }
+    #a116 {
+      display: none;
+    }
+    #a117 {
+      display: none;
+    }
+    #a118 {
+      display: none;
+    }
+    #a119 {
+      display: none;
+    }
+    #a120 {
+      display: none;
+    }
+    #a121 {
+      display: none;
+    }
+    #a122 {
+      display: none;
+    }
+    #a123 {
+      display: none;
+    }
+    #a124 {
+      display: none;
+    }
+    #a125 {
+      display: none;
+    }
+    #a126 {
+      display: none;
+    }
+    #a127 {
+      display: none;
+    }
+    #a128 {
+      display: none;
+    }
+    #a129 {
+      display: none;
+    }
+    #a130 {
+      display: none;
+    }
+    #a131 {
+      display: none;
+    }
+    #a132 {
+      display: none;
+    }
+    #a133 {
+      display: none;
+    }
+    #a134 {
+      display: none;
+    }
+    #a135 {
+      display: none;
+    }
+    #a136 {
+      display: none;
+    }
+    #a137 {
+      display: none;
+    }
+    #a138 {
+      display: none;
+    }
+    #a139 {
+      display: none;
+    }
+    #a140 {
+      display: none;
+    }
+    #a141 {
+      display: none;
+    }
+    #a142 {
+      display: none;
+    }
+    #a143 {
+      display: none;
+    }
+    #a144 {
+      display: none;
+    }
+    #a145 {
+      display: none;
+    }
+    #a146 {
+      display: none;
+    }
+    #a147 {
+      display: none;
+    }
+    #a148 {
+      display: none;
+    }
+    #a149 {
+      display: none;
+    }
+    #a150 {
+      display: none;
+    }
+    #a151 {
+      display: none;
+    }
+    #a152 {
+      display: none;
+    }
+    #a153 {
+      display: none;
+    }
+    #a154 {
+      display: none;
+    }
+    #a155 {
+      display: none;
+    }
+    #a156 {
+      display: none;
+    }
+    #a157 {
+      display: none;
+    }
+    #a158 {
+      display: none;
+    }
+    #a159 {
+      display: none;
+    }
+    #a160 {
+      display: none;
+    }
+    #a161 {
+      display: none;
+    }
+    #a162 {
+      display: none;
+    }
+    #a163 {
+      display: none;
+    }
+    #a164 {
+      display: none;
+    }
+    #a165 {
+      display: none;
+    }
+    #a166 {
+      display: none;
+    }
+    #a167 {
+      display: none;
+    }
+    #a168 {
+      display: none;
+    }
+    #a169 {
+      display: none;
+    }
+    #a170 {
+      display: none;
+    }
+    #a171 {
+      display: none;
+    }
+    #a172 {
+      display: none;
+    }
+    #a173 {
+      display: none;
+    }
+    #a174 {
+      display: none;
+    }
+    #a175 {
+      display: none;
+    }
+    #a176 {
+      display: none;
+    }
+    #a177 {
+      display: none;
+    }
+    #a178 {
+      display: none;
+    }
+    #a179 {
+      display: none;
+    }
+    #a180 {
+      display: none;
+    }
+    #a181 {
+      display: none;
+    }
+    #a182 {
+      display: none;
+    }
+    #a183 {
+      display: none;
+    }
+    #a184 {
+      display: none;
+    }
+    #a185 {
+      display: none;
+    }
+    #a186 {
+      display: none;
+    }
+    #a187 {
+      display: none;
+    }
+    #a188 {
+      display: none;
+    }
+    #a189 {
+      display: none;
+    }
+    #a190 {
+      display: none;
+    }
+    #a191 {
+      display: none;
+    }
+    #a192 {
+      display: none;
+    }
+    #a193 {
+      display: none;
+    }
+    #a194 {
+      display: none;
+    }
+    #a195 {
+      display: none;
+    }
+    #a196 {
+      display: none;
+    }
+    #a197 {
+      display: none;
+    }
+    #a198 {
+      display: none;
+    }
+    #a199 {
+      display: none;
+    }
+    #a200 {
+      display: none;
+    }
+    #a201 {
+      display: none;
+    }
+    #a202 {
+      display: none;
+    }
+    #a203 {
+      display: none;
+    }
+    #a204 {
+      display: none;
+    }
+    #a205 {
+      display: none;
+    }
+    #a206 {
+      display: none;
+    }
+    #a207 {
+      display: none;
+    }
+    #a208 {
+      display: none;
+    }
+    #a209 {
+      display: none;
+    }
+    #a210 {
+      display: none;
+    }
+    #a211 {
+      display: none;
+    }
+    #a212 {
+      display: none;
+    }
+    #a213 {
+      display: none;
+    }
+    #a214 {
+      display: none;
+    }
+    #a215 {
+      display: none;
+    }
+    #a216 {
+      display: none;
+    }
+    #a217 {
+      display: none;
+    }
+    #a218 {
+      display: none;
+    }
+    #a219 {
+      display: none;
+    }
+    #a220 {
+      display: none;
+    }
+    #a221 {
+      display: none;
+    }
+    #a222 {
+      display: none;
+    }
+    #a223 {
+      display: none;
+    }
+    #a224 {
+      display: none;
+    }
+    #a225 {
+      display: none;
+    }
+    #a226 {
+      display: none;
+    }
+    #a227 {
+      display: none;
+    }
+    #a228 {
+      display: none;
+    }
+    #a229 {
+      display: none;
+    }
+    #a230 {
+      display: none;
+    }
+    #a231 {
+      display: none;
+    }
+    #a232 {
+      display: none;
+    }
+    #a233 {
+      display: none;
+    }
+    #a234 {
+      display: none;
+    }
+    #a235 {
+      display: none;
+    }
+    #a236 {
+      display: none;
+    }
+    #a237 {
+      display: none;
+    }
+    #a238 {
+      display: none;
+    }
+    #a239 {
+      display: none;
+    }
+    #a240 {
+      display: none;
+    }
+    #a241 {
+      display: none;
+    }
+    #a242 {
+      display: none;
+    }
+    #a243 {
+      display: none;
+    }
+    #a244 {
+      display: none;
+    }
+    #a245 {
+      display: none;
+    }
+    #a246 {
+      display: none;
+    }
+    #a247 {
+      display: none;
+    }
+    #a248 {
+      display: none;
+    }
+    #a249 {
+      display: none;
+    }
+    #a250 {
+      display: none;
+    }
+    #a251 {
+      display: none;
+    }
+    #a252 {
+      display: none;
+    }
+    #a253 {
+      display: none;
+    }
+    #a254 {
+      display: none;
+    }
+    #a255 {
+      display: none;
+    }
+    #a256 {
+      display: none;
+    }
+    #a257 {
+      display: none;
+    }
+    #a258 {
+      display: none;
+    }
+    #a259 {
+      display: none;
+    }
+    #a260 {
+      display: none;
+    }
+    #a261 {
+      display: none;
+    }
+    #a262 {
+      display: none;
+    }
+    #a263 {
+      display: none;
+    }
+    #a264 {
+      display: none;
+    }
+    #a265 {
+      display: none;
+    }
+    #a266 {
+      display: none;
+    }
+    #a267 {
+      display: none;
+    }
+    #a268 {
+      display: none;
+    }
+    #a269 {
+      display: none;
+    }
+    #a270 {
+      display: none;
+    }
+    #a271 {
+      display: none;
+    }
+    #a272 {
+      display: none;
+    }
+    #a273 {
+      display: none;
+    }
+    #a274 {
+      display: none;
+    }
+    #a275 {
+      display: none;
+    }
+    #a276 {
+      display: none;
+    }
+    #a277 {
+      display: none;
+    }
+    #a278 {
+      display: none;
+    }
+    #a279 {
+      display: none;
+    }
+    #a280 {
+      display: none;
+    }
+    #a281 {
+      display: none;
+    }
+    #a282 {
+      display: none;
+    }
+    #a283 {
+      display: none;
+    }
+    #a284 {
+      display: none;
+    }
+    #a285 {
+      display: none;
+    }
+    #a286 {
+      display: none;
+    }
+    #a287 {
+      display: none;
+    }
+    #a288 {
+      display: none;
+    }
+    #a289 {
+      display: none;
+    }
+    #a290 {
+      display: none;
+    }
+    #a291 {
+      display: none;
+    }
+    #a292 {
+      display: none;
+    }
+    #a293 {
+      display: none;
+    }
+    #a294 {
+      display: none;
+    }
+    #a295 {
+      display: none;
+    }
+    #a296 {
+      display: none;
+    }
+    #a297 {
+      display: none;
+    }
+    #a298 {
+      display: none;
+    }
+    #a299 {
+      display: none;
+    }
+    #a300 {
+      display: none;
+    }
+    #a301 {
+      display: none;
+    }
+    #a302 {
+      display: none;
+    }
+    #a303 {
+      display: none;
+    }
+    #a304 {
+      display: none;
+    }
+    #a305 {
+      display: none;
+    }
+    #a306 {
+      display: none;
+    }
+    #a307 {
+      display: none;
+    }
+    #a308 {
+      display: none;
+    }
+    #a309 {
+      display: none;
+    }
+    #a310 {
+      display: none;
+    }
+    #a311 {
+      display: none;
+    }
+    #a312 {
+      display: none;
+    }
+    #a313 {
+      display: none;
+    }
+    #a314 {
+      display: none;
+    }
+    #a315 {
+      display: none;
+    }
+    #a316 {
+      display: none;
+    }
+    #a317 {
+      display: none;
+    }
+    #a318 {
+      display: none;
+    }
+    #a319 {
+      display: none;
+    }
+    #a320 {
+      display: none;
+    }
+    #a321 {
+      display: none;
+    }
+    #a322 {
+      display: none;
+    }
+    #a323 {
+      display: none;
+    }
+    #a324 {
+      display: none;
+    }
+    #a325 {
+      display: none;
+    }
+    #a326 {
+      display: none;
+    }
+    #a327 {
+      display: none;
+    }
+    #a328 {
+      display: none;
+    }
+    #a329 {
+      display: none;
+    }
+    #a330 {
+      display: none;
+    }
+    #a331 {
+      display: none;
+    }
+    #a332 {
+      display: none;
+    }
+    #a333 {
+      display: none;
+    }
+    #a334 {
+      display: none;
+    }
+    #a335 {
+      display: none;
+    }
+    #a336 {
+      display: none;
+    }
+    #a337 {
+      display: none;
+    }
+    #a338 {
+      display: none;
+    }
+    #a339 {
+      display: none;
+    }
+    #a340 {
+      display: none;
+    }
+    #a341 {
+      display: none;
+    }
+    #a342 {
+      display: none;
+    }
+    #a343 {
+      display: none;
+    }
+    #a344 {
+      display: none;
+    }
+    #a345 {
+      display: none;
+    }
+    #a346 {
+      display: none;
+    }
+    #a347 {
+      display: none;
+    }
+    #a348 {
+      display: none;
+    }
+    #a349 {
+      display: none;
+    }
+    #a350 {
+      display: none;
+    }
+    #a351 {
+      display: none;
+    }
+    #a352 {
+      display: none;
+    }
+    #a353 {
+      display: none;
+    }
+    #a354 {
+      display: none;
+    }
+    #a355 {
+      display: none;
+    }
+    #a356 {
+      display: none;
+    }
+    #a357 {
+      display: none;
+    }
+    #a358 {
+      display: none;
+    }
+    #a359 {
+      display: none;
+    }
+    #a360 {
+      display: none;
+    }
+    #a361 {
+      display: none;
+    }
+    #a362 {
+      display: none;
+    }
+    #a363 {
+      display: none;
+    }
+    #a364 {
+      display: none;
+    }
+    #a365 {
+      display: none;
+    }
+    #a366 {
+      display: none;
+    }
+    #a367 {
+      display: none;
+    }
+    #a368 {
+      display: none;
+    }
+    #a369 {
+      display: none;
+    }
+    #a370 {
+      display: none;
+    }
+    #a371 {
+      display: none;
+    }
+    #a372 {
+      display: none;
+    }
+    #a373 {
+      display: none;
+    }
+    #a374 {
+      display: none;
+    }
+    #a375 {
+      display: none;
+    }
+    #a376 {
+      display: none;
+    }
+    #a377 {
+      display: none;
+    }
+    #a378 {
+      display: none;
+    }
+    #a379 {
+      display: none;
+    }
+    #a380 {
+      display: none;
+    }
+    #a381 {
+      display: none;
+    }
+    #a382 {
+      display: none;
+    }
+    #a383 {
+      display: none;
+    }
+    #a384 {
+      display: none;
+    }
+    #a385 {
+      display: none;
+    }
+    #a386 {
+      display: none;
+    }
+    #a387 {
+      display: none;
+    }
+    #a388 {
+      display: none;
+    }
+    #a389 {
+      display: none;
+    }
+    #a390 {
+      display: none;
+    }
+    #a391 {
+      display: none;
+    }
+    #a392 {
+      display: none;
+    }
+    #a393 {
+      display: none;
+    }
+    #a394 {
+      display: none;
+    }
+    #a395 {
+      display: none;
+    }
+    #a396 {
+      display: none;
+    }
+    #a397 {
+      display: none;
+    }
+    #a398 {
+      display: none;
+    }
+    #a399 {
+      display: none;
+    }
+    #a400 {
+      display: none;
+    }
+    #a401 {
+      display: none;
+    }
+    #a402 {
+      display: none;
+    }
+    #a403 {
+      display: none;
+    }
+    #a404 {
+      display: none;
+    }
+    #a405 {
+      display: none;
+    }
+    #a406 {
+      display: none;
+    }
+    #a407 {
+      display: none;
+    }
+    #a408 {
+      display: none;
+    }
+    #a409 {
+      display: none;
+    }
+    #a410 {
+      display: none;
+    }
+    #a411 {
+      display: none;
+    }
+    #a412 {
+      display: none;
+    }
+    #a413 {
+      display: none;
+    }
+    #a414 {
+      display: none;
+    }
+    #a415 {
+      display: none;
+    }
+    #a416 {
+      display: none;
+    }
+    #a417 {
+      display: none;
+    }
+    #a418 {
+      display: none;
+    }
+    #a419 {
+      display: none;
+    }
+    #a420 {
+      display: none;
+    }
+    #a421 {
+      display: none;
+    }
+    #a422 {
+      display: none;
+    }
+    #a423 {
+      display: none;
+    }
+    #a424 {
+      display: none;
+    }
+    #a425 {
+      display: none;
+    }
+    #a426 {
+      display: none;
+    }
+    #a427 {
+      display: none;
+    }
+    #a428 {
+      display: none;
+    }
+    #a429 {
+      display: none;
+    }
+    #a430 {
+      display: none;
+    }
+    #a431 {
+      display: none;
+    }
+    #a432 {
+      display: none;
+    }
+    #a433 {
+      display: none;
+    }
+    #a434 {
+      display: none;
+    }
+    #a435 {
+      display: none;
+    }
+    #a436 {
+      display: none;
+    }
+    #a437 {
+      display: none;
+    }
+    #a438 {
+      display: none;
+    }
+    #a439 {
+      display: none;
+    }
+    #a440 {
+      display: none;
+    }
+    #a441 {
+      display: none;
+    }
+    #a442 {
+      display: none;
+    }
+    #a443 {
+      display: none;
+    }
+    #a444 {
+      display: none;
+    }
+    #a445 {
+      display: none;
+    }
+    #a446 {
+      display: none;
+    }
+    #a447 {
+      display: none;
+    }
+    #a448 {
+      display: none;
+    }
+    #a449 {
+      display: none;
+    }
+    #a450 {
+      display: none;
+    }
+    #a451 {
+      display: none;
+    }
+    #a452 {
+      display: none;
+    }
+    #a453 {
+      display: none;
+    }
+    #a454 {
+      display: none;
+    }
+    #a455 {
+      display: none;
+    }
+    #a456 {
+      display: none;
+    }
+    #a457 {
+      display: none;
+    }
+    #a458 {
+      display: none;
+    }
+    #a459 {
+      display: none;
+    }
+    #a460 {
+      display: none;
+    }
+    #a461 {
+      display: none;
+    }
+    #a462 {
+      display: none;
+    }
+    #a463 {
+      display: none;
+    }
+    #a464 {
+      display: none;
+    }
+    #a465 {
+      display: none;
+    }
+    #a466 {
+      display: none;
+    }
+    #a467 {
+      display: none;
+    }
+    #a468 {
+      display: none;
+    }
+    #a469 {
+      display: none;
+    }
+    #a470 {
+      display: none;
+    }
+    #a471 {
+      display: none;
+    }
+    #a472 {
+      display: none;
+    }
+    #a473 {
+      display: none;
+    }
+    #a474 {
+      display: none;
+    }
+    #a475 {
+      display: none;
+    }
+    #a476 {
+      display: none;
+    }
+    #a477 {
+      display: none;
+    }
+    #a478 {
+      display: none;
+    }
+    #a479 {
+      display: none;
+    }
+    #a480 {
+      display: none;
+    }
+    #a481 {
+      display: none;
+    }
+    #a482 {
+      display: none;
+    }
+    #a483 {
+      display: none;
+    }
+    #a484 {
+      display: none;
+    }
+    #a485 {
+      display: none;
+    }
+    #a486 {
+      display: none;
+    }
+    #a487 {
+      display: none;
+    }
+    #a488 {
+      display: none;
+    }
+    #a489 {
+      display: none;
+    }
+    #a490 {
+      display: none;
+    }
+    #a491 {
+      display: none;
+    }
+    #a492 {
+      display: none;
+    }
+    #a493 {
+      display: none;
+    }
+    #a494 {
+      display: none;
+    }
+    #a495 {
+      display: none;
+    }
+    #a496 {
+      display: none;
+    }
+    #a497 {
+      display: none;
+    }
+    #a498 {
+      display: none;
+    }
+    #a499 {
+      display: none;
+    }
+    #a500 {
+      display: none;
+    }
+    #a501 {
+      display: none;
+    }
+    #a502 {
+      display: none;
+    }
+    #a503 {
+      display: none;
+    }
+    #a504 {
+      display: none;
+    }
+    #a505 {
+      display: none;
+    }
+    #a506 {
+      display: none;
+    }
+    #a507 {
+      display: none;
+    }
+    #a508 {
+      display: none;
+    }
+    #a509 {
+      display: none;
+    }
+    #a510 {
+      display: none;
+    }
+    #a511 {
+      display: none;
+    }
+    #a512 {
+      display: none;
+    }
+    #a513 {
+      display: none;
+    }
+    #a514 {
+      display: none;
+    }
+    #a515 {
+      display: none;
+    }
+    #a516 {
+      display: none;
+    }
+    #a517 {
+      display: none;
+    }
+    #a518 {
+      display: none;
+    }
+    #a519 {
+      display: none;
+    }
+    #a520 {
+      display: none;
+    }
+    #a521 {
+      display: none;
+    }
+    #a522 {
+      display: none;
+    }
+    #a523 {
+      display: none;
+    }
+    #a524 {
+      display: none;
+    }
+    #a525 {
+      display: none;
+    }
+    #a526 {
+      display: none;
+    }
+    #a527 {
+      display: none;
+    }
+    #a528 {
+      display: none;
+    }
+    #a529 {
+      display: none;
+    }
+    #a530 {
+      display: none;
+    }
+    #a531 {
+      display: none;
+    }
+    #a532 {
+      display: none;
+    }
+    #a533 {
+      display: none;
+    }
+    #a534 {
+      display: none;
+    }
+    #a535 {
+      display: none;
+    }
+    #a536 {
+      display: none;
+    }
+    #a537 {
+      display: none;
+    }
+    #a538 {
+      display: none;
+    }
+    #a539 {
+      display: none;
+    }
+    #a540 {
+      display: none;
+    }
+    #a541 {
+      display: none;
+    }
+    #a542 {
+      display: none;
+    }
+    #a543 {
+      display: none;
+    }
+    #a544 {
+      display: none;
+    }
+    #a545 {
+      display: none;
+    }
+    #a546 {
+      display: none;
+    }
+    #a547 {
+      display: none;
+    }
+    #a548 {
+      display: none;
+    }
+    #a549 {
+      display: none;
+    }
+    #a550 {
+      display: none;
+    }
+    #a551 {
+      display: none;
+    }
+    #a552 {
+      display: none;
+    }
+    #a553 {
+      display: none;
+    }
+    #a554 {
+      display: none;
+    }
+    #a555 {
+      display: none;
+    }
+    #a556 {
+      display: none;
+    }
+    #a557 {
+      display: none;
+    }
+    #a558 {
+      display: none;
+    }
+    #a559 {
+      display: none;
+    }
+    #a560 {
+      display: none;
+    }
+    #a561 {
+      display: none;
+    }
+    #a562 {
+      display: none;
+    }
+    #a563 {
+      display: none;
+    }
+    #a564 {
+      display: none;
+    }
+    #a565 {
+      display: none;
+    }
+    #a566 {
+      display: none;
+    }
+    #a567 {
+      display: none;
+    }
+    #a568 {
+      display: none;
+    }
+    #a569 {
+      display: none;
+    }
+    #a570 {
+      display: none;
+    }
+    #a571 {
+      display: none;
+    }
+    #a572 {
+      display: none;
+    }
+    #a573 {
+      display: none;
+    }
+    #a574 {
+      display: none;
+    }
+    #a575 {
+      display: none;
+    }
+    #a576 {
+      display: none;
+    }
+    #a577 {
+      display: none;
+    }
+    #a578 {
+      display: none;
+    }
+    #a579 {
+      display: none;
+    }
+    #a580 {
+      display: none;
+    }
+    #a581 {
+      display: none;
+    }
+    #a582 {
+      display: none;
+    }
+    #a583 {
+      display: none;
+    }
+    #a584 {
+      display: none;
+    }
+    #a585 {
+      display: none;
+    }
+    #a586 {
+      display: none;
+    }
+    #a587 {
+      display: none;
+    }
+    #a588 {
+      display: none;
+    }
+    #a589 {
+      display: none;
+    }
+    #a590 {
+      display: none;
+    }
+    #a591 {
+      display: none;
+    }
+    #a592 {
+      display: none;
+    }
+    #a593 {
+      display: none;
+    }
+    #a594 {
+      display: none;
+    }
+    #a595 {
+      display: none;
+    }
+    #a596 {
+      display: none;
+    }
+    #a597 {
+      display: none;
+    }
+    #a598 {
+      display: none;
+    }
+    #a599 {
+      display: none;
+    }
+    #a600 {
+      display: none;
+    }
+    #a601 {
+      display: none;
+    }
+    #a602 {
+      display: none;
+    }
+    #a603 {
+      display: none;
+    }
+    #a604 {
+      display: none;
+    }
+    #a605 {
+      display: none;
+    }
+    #a606 {
+      display: none;
+    }
+    #a607 {
+      display: none;
+    }
+    #a608 {
+      display: none;
+    }
+    #a609 {
+      display: none;
+    }
+    #a610 {
+      display: none;
+    }
+    #a611 {
+      display: none;
+    }
+    #a612 {
+      display: none;
+    }
+    #a613 {
+      display: none;
+    }
+    #a614 {
+      display: none;
+    }
+    #a615 {
+      display: none;
+    }
+    #a616 {
+      display: none;
+    }
+    #a617 {
+      display: none;
+    }
+    #a618 {
+      display: none;
+    }
+    #a619 {
+      display: none;
+    }
+    #a620 {
+      display: none;
+    }
+    #a621 {
+      display: none;
+    }
+    #a622 {
+      display: none;
+    }
+    #a623 {
+      display: none;
+    }
+    #a624 {
+      display: none;
+    }
+    #a625 {
+      display: none;
+    }
+    #a626 {
+      display: none;
+    }
+    #a627 {
+      display: none;
+    }
+    #a628 {
+      display: none;
+    }
+    #a629 {
+      display: none;
+    }
+    #a630 {
+      display: none;
+    }
+    #a631 {
+      display: none;
+    }
+    #a632 {
+      display: none;
+    }
+    #a633 {
+      display: none;
+    }
+    #a634 {
+      display: none;
+    }
+    #a635 {
+      display: none;
+    }
+    #a636 {
+      display: none;
+    }
+    #a637 {
+      display: none;
+    }
+    #a638 {
+      display: none;
+    }
+    #a639 {
+      display: none;
+    }
+    #a640 {
+      display: none;
+    }
+    #a641 {
+      display: none;
+    }
+    #a642 {
+      display: none;
+    }
+    #a643 {
+      display: none;
+    }
+    #a644 {
+      display: none;
+    }
+    #a645 {
+      display: none;
+    }
+    #a646 {
+      display: none;
+    }
+    #a647 {
+      display: none;
+    }
+    #a648 {
+      display: none;
+    }
+    #a649 {
+      display: none;
+    }
+    #a650 {
+      display: none;
+    }
+    #a651 {
+      display: none;
+    }
+    #a652 {
+      display: none;
+    }
+    #a653 {
+      display: none;
+    }
+    #a654 {
+      display: none;
+    }
+    #a655 {
+      display: none;
+    }
+    #a656 {
+      display: none;
+    }
+    #a657 {
+      display: none;
+    }
+    #a658 {
+      display: none;
+    }
+    #a659 {
+      display: none;
+    }
+    #a660 {
+      display: none;
+    }
+    #a661 {
+      display: none;
+    }
+    #a662 {
+      display: none;
+    }
+    #a663 {
+      display: none;
+    }
+    #a664 {
+      display: none;
+    }
+    #a665 {
+      display: none;
+    }
+    #a666 {
+      display: none;
+    }
+    #a667 {
+      display: none;
+    }
+    #a668 {
+      display: none;
+    }
+    #a669 {
+      display: none;
+    }
+    #a670 {
+      display: none;
+    }
+    #a671 {
+      display: none;
+    }
+    #a672 {
+      display: none;
+    }
+    #a673 {
+      display: none;
+    }
+    #a674 {
+      display: none;
+    }
+    #a675 {
+      display: none;
+    }
+    #a676 {
+      display: none;
+    }
+    #a677 {
+      display: none;
+    }
+    #a678 {
+      display: none;
+    }
+    #a679 {
+      display: none;
+    }
+    #a680 {
+      display: none;
+    }
+    #a681 {
+      display: none;
+    }
+    #a682 {
+      display: none;
+    }
+    #a683 {
+      display: none;
+    }
+    #a684 {
+      display: none;
+    }
+    #a685 {
+      display: none;
+    }
+    #a686 {
+      display: none;
+    }
+    #a687 {
+      display: none;
+    }
+    #a688 {
+      display: none;
+    }
+    #a689 {
+      display: none;
+    }
+    #a690 {
+      display: none;
+    }
+    #a691 {
+      display: none;
+    }
+    #a692 {
+      display: none;
+    }
+    #a693 {
+      display: none;
+    }
+    #a694 {
+      display: none;
+    }
+    #a695 {
+      display: none;
+    }
+    #a696 {
+      display: none;
+    }
+    #a697 {
+      display: none;
+    }
+    #a698 {
+      display: none;
+    }
+    #a699 {
+      display: none;
+    }
+    #a700 {
+      display: none;
+    }
+    #a701 {
+      display: none;
+    }
+    #a702 {
+      display: none;
+    }
+    #a703 {
+      display: none;
+    }
+    #a704 {
+      display: none;
+    }
+    #a705 {
+      display: none;
+    }
+    #a706 {
+      display: none;
+    }
+    #a707 {
+      display: none;
+    }
+    #a708 {
+      display: none;
+    }
+    #a709 {
+      display: none;
+    }
+    #a710 {
+      display: none;
+    }
+    #a711 {
+      display: none;
+    }
+    #a712 {
+      display: none;
+    }
+    #a713 {
+      display: none;
+    }
+    #a714 {
+      display: none;
+    }
+    #a715 {
+      display: none;
+    }
+    #a716 {
+      display: none;
+    }
+    #a717 {
+      display: none;
+    }
+    #a718 {
+      display: none;
+    }
+    #a719 {
+      display: none;
+    }
+    #a720 {
+      display: none;
+    }
+    #a721 {
+      display: none;
+    }
+    #a722 {
+      display: none;
+    }
+    #a723 {
+      display: none;
+    }
+    #a724 {
+      display: none;
+    }
+    #a725 {
+      display: none;
+    }
+    #a726 {
+      display: none;
+    }
+    #a727 {
+      display: none;
+    }
+    #a728 {
+      display: none;
+    }
+    #a729 {
+      display: none;
+    }
+    #a730 {
+      display: none;
+    }
+    #a731 {
+      display: none;
+    }
+    #a732 {
+      display: none;
+    }
+    #a733 {
+      display: none;
+    }
+    #a734 {
+      display: none;
+    }
+    #a735 {
+      display: none;
+    }
+    #a736 {
+      display: none;
+    }
+    #a737 {
+      display: none;
+    }
+    #a738 {
+      display: none;
+    }
+    #a739 {
+      display: none;
+    }
+    #a740 {
+      display: none;
+    }
+    #a741 {
+      display: none;
+    }
+    #a742 {
+      display: none;
+    }
+    #a743 {
+      display: none;
+    }
+    #a744 {
+      display: none;
+    }
+    #a745 {
+      display: none;
+    }
+    #a746 {
+      display: none;
+    }
+    #a747 {
+      display: none;
+    }
+    #a748 {
+      display: none;
+    }
+    #a749 {
+      display: none;
+    }
+    #a750 {
+      display: none;
+    }
+    #a751 {
+      display: none;
+    }
+    #a752 {
+      display: none;
+    }
+    #a753 {
+      display: none;
+    }
+    #a754 {
+      display: none;
+    }
+    #a755 {
+      display: none;
+    }
+    #a756 {
+      display: none;
+    }
+    #a757 {
+      display: none;
+    }
+    * {
+      font-size: 14px;
+    }
+    a:link {
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit
+    }
+    a:visited {
+      text-decoration: none;
+    }
+    a:active {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      color: #800;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 30px
+    }
+    h2 {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 16px;
+    }
+    h3 {
+      color: #800;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 22px
+    }
+    p,
+    ol,ul {
+      color: #000;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 12px
+    }
+  </style>
+
+
+</head>
+
+<body style="background-color:#FFF">
+  <table align="center" style="border-width:0px; margin: 0px auto;" width="90%">
+    <tr>
+      <td bgcolor="#BBBBBB" style="padding-left:20px; padding-right:20px">
+        <h1>ARENA</h1>
+        <h3 style="margin-left:50px">Automatic RElease Notes generAtor<span style="color: #000; font-family:inherit; font-size:inherit;"> - LUCENE 4.0.0</span></h3>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFF" style="padding-left:20px; padding-right:20px">
+
+        <h2><a href="#" onclick="show_hide('a755'); return false">New Features</a> (1)</h2>
+        <div id="a755">
+          <ol>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-3842" target="_blank">LUCENE-3842</a>: Analyzing Suggester <a href="#" onclick="show_hide('a1'); return false">[more info]</a>
+            </li>
+            <div id="a1">
+              <ul type="circle">
+                <li>
+                  <p>New method testFiniteStrings() in class TestSpecialOperations.</p>
+                </li>
+                <li>
+                  <p>New method acceptResult(IntsRef,T) in class Util.</p>
+                </li>
+                <li>
+                  <p>New file lucene/core/src/java/org/apache/lucene/util/RollingBuffer.java.</p>
+                </li>
+                <li>
+                  <p>New methods token(String,int,int), token(String,int,int,int,int), testSingleToken(), testMultipleHoles(), testSynOverMultipleHoles(), join(String), join(Automaton), s2a(String), testTwoTokens(), testHole(), testOverlappedTokensSausage(),
+                    testOverlappedTokensLattice(), testSynOverHole(), testSynOverHole2(), testOverlappedTokensLattice2(), testToDot(), testStartsWithHole(), and testSynHangingOverEnd() in TestGraphTokenizers.</p>
+                </li>
+                <li>
+                  <p>Modified methods resetTransitions(), and addEpsilon(State) in State.</p>
+                </li>
+                <li>
+                  <p>New methods getFiniteStrings(Automaton,int), and getFiniteStrings(State,HashSet&lt;State&gt;,HashSet&lt;IntsRef&gt;,IntsRef,int) in SpecialOperations.</p>
+                </li>
+                <li>
+                  <p>Modified method valid(Long) in class PositiveIntOutputs.</p>
+                </li>
+                <li>
+                  <p>Files lucene/core/src/java/org/apache/lucene/util/automaton/State.java, lucene/suggest/src/java/org/apache/lucene/search/suggest/analyzing/AnalyzingSuggester.java were refactored.</p>
+                </li>
+                <li>
+                  <p>Licence Apache v2 removed from file lucene/core/src/java/org/apache/lucene/util/automaton/State.java.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/test/org/apache/lucene/util/fst/TestFSTs.java, lucene/core/src/test/org/apache/lucene/index/BinaryTokenStream.java.</p>
+                </li>
+              </ul>
+            </div>
+          </ol>
+        </div>
+
+        <h2><a href="#" onclick="show_hide('a756'); return false">Bug Fixes</a> (30)</h2>
+        <div id="a756">
+          <ol>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4459" target="_blank">LUCENE-4459</a>: TestWeakIdentityMap.testConcurrentHashMap fails periodically in jenkins <a href="#" onclick="show_hide('a14'); return false">[more info]</a>
+            </li>
+            <div id="a14">
+              <ul type="circle">
+                <li>
+                  <p>Modified methods testSimpleHashMap(), and testConcurrentHashMap() in TestWeakIdentityMap.</p>
+                </li>
+              </ul>
+              </li>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4456" target="_blank">LUCENE-4456</a>: IndexWriter makes unrefed files, and MockDir cannot detect it <a href="#" onclick="show_hide('a16'); return false">[more info]</a>
+            </li>
+            <div id="a16">
+              <ul type="circle">
+                <li>
+                  <p>New class TestFailIfUnreferencedFiles extending WithNestedTests. This boundary class communicates mainly with Test, Result, and JUnitCore. It allows instantiating test fail if unreferenced files. This class declares the helper class
+                    Nested1.</p>
+                </li>
+                <li>
+                  <p>Modified methods rollBackLast(int), testRepeatedRollBacks(), setUp(), and testRollbackDeletionPolicy() in TestTransactionRollback.</p>
+                </li>
+                <li>
+                  <p>Modified methods testRollbackToOldSnapshot(), and testSnapshotLastCommitTwice() in TestSnapshotDeletionPolicy.</p>
+                </li>
+                <li>
+                  <p>Modified methods testIndexAndMerge(), and merge(Directory,SegmentInfoPerCommit,SegmentInfoPerCommit,String,boolean) in TestDoc.</p>
+                </li>
+                <li>
+                  <p>New method assertReaderClosed(IndexReader,boolean) in TestDirectoryReaderReopen. Removed methods performTestsWithExceptionInReopen(TestReopen), and assertRefCountEquals(int,DirectoryReader). Modified methods doTestReopenWithCommit(Random,Directory,boolean),
+                    performDefaultTests(TestReopen), testThreadSafety(), createIndex(Random,Directory,boolean), and assertReaderClosed(IndexReader,boolean,boolean).</p>
+                </li>
+                <li>
+                  <p>Modified methods testDocument(), testBinaryFields(), assertIndexEquals(DirectoryReader,DirectoryReader), and testLoadCertainFields() in TestDirectoryReader.</p>
+                </li>
+                <li>
+                  <p>Modified methods testCrashWhileIndexing(), testWriterAfterCrash(), and testCrashAfterReopen() in TestCrash.</p>
+                </li>
+                <li>
+                  <p>Modified methods prepareFlushedSegment(FlushedSegment), addIndexes(Directory), addIndexes(IndexReader), copySegmentAsIs(SegmentInfoPerCommit,String,IOContext), commitMerge(MergePolicy.OneMerge), _mergeInit(MergePolicy.OneMerge), createCompoundFile(InfoStream,Directory,CheckAbort,final,IOContext),
+                    merge(MergePolicy.OneMerge), and mergeMiddle(MergePolicy.OneMerge) in IndexWriter.</p>
+                </li>
+                <li>
+                  <p>Modified methods refresh(String), and deleteNewFiles(Collection&lt;String&gt;) in IndexFileDeleter.</p>
+                </li>
+                <li>
+                  <p>Removed method assertFileLength(long,IndexOutput) from CompoundFileWriter. Modified method close().</p>
+                </li>
+                <li>
+                  <p>Modified methods rollbackCommit(Directory), and finishCommit(Directory) in SegmentInfos.</p>
+                </li>
+                <li>
+                  <p>Modified method testTransactions() in class TestTransactions.</p>
+                </li>
+                <li>
+                  <p>Modified method doClose() in class StandardDirectoryReader.</p>
+                </li>
+                <li>
+                  <p>Modified method write(Directory,String,FieldInfos,IOContext) in class Lucene40FieldInfosWriter.</p>
+                </li>
+                <li>
+                  <p>Modified method load(FieldInfos,String,int,Directory,IOContext) in class PerDocProducerBase.</p>
+                </li>
+                <li>
+                  <p>Modified method abort() in classes DocumentsWriterPerThread, Lucene40DocValuesConsumer, Lucene40TermVectorsWriter, Lucene40StoredFieldsWriter.</p>
+                </li>
+                <li>
+                  <p>Modified method Lucene40TermVectorsReader(Directory,SegmentInfo,FieldInfos,IOContext) in class Lucene40TermVectorsReader.</p>
+                </li>
+                <li>
+                  <p>Modified method files() in class SegmentInfoPerCommit.</p>
+                </li>
+                <li>
+                  <p>Modified method toString() in class LiveIndexWriterConfig.</p>
+                </li>
+                <li>
+                  <p>Modified method publishFlushedSegment(FlushedSegment,FrozenBufferedDeletes) in class DocumentsWriter.</p>
+                </li>
+                <li>
+                  <p>Modified method copy(Directory,String,String,IOContext) in class Directory.</p>
+                </li>
+                <li>
+                  <p>Modified method testRollingUpdates() in class TestRollingUpdates.</p>
+                </li>
+                <li>
+                  <p>Modified method read(Directory,String,IOContext) in class Lucene40FieldInfosReader.</p>
+                </li>
+                <li>
+                  <p>Modified method Lucene40StoredFieldsReader(Directory,SegmentInfo,FieldInfos,IOContext) in class Lucene40StoredFieldsReader.</p>
+                </li>
+                <li>
+                  <p>Modified method setUp() in class TestPerFieldPostingsFormat.</p>
+                </li>
+                <li>
+                  <p>Files lucene/core/src/java/org/apache/lucene/util/IOUtils.java, lucene/codecs/src/java/org/apache/lucene/codecs/sep/SepPostingsReader.java, lucene/codecs/src/java/org/apache/lucene/codecs/simpletext/SimpleTextFieldInfosReader.java, lucene/codecs/src/java/org/apache/lucene/codecs/simpletext/SimpleTextFieldInfosWriter.java,
+                    lucene/codecs/src/java/org/apache/lucene/codecs/simpletext/SimpleTextPerDocProducer.java, lucene/codecs/src/java/org/apache/lucene/codecs/simpletext/SimpleTextStoredFieldsReader.java, lucene/codecs/src/java/org/apache/lucene/codecs/simpletext/SimpleTextTermVectorsReader.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/PerDocProducerBase.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40DocValuesConsumer.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40FieldInfosReader.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40FieldInfosWriter.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40StoredFieldsReader.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40TermVectorsReader.java,
+                    lucene/codecs/src/java/org/apache/lucene/codecs/simpletext/SimpleTextStoredFieldsWriter.java, lucene/codecs/src/java/org/apache/lucene/codecs/simpletext/SimpleTextTermVectorsWriter.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40StoredFieldsWriter.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40TermVectorsWriter.java were refactored.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/test/org/apache/lucene/index/TestPersistentSnapshotDeletionPolicy.java, lucene/core/src/test/org/apache/lucene/index/TestNoDeletionPolicy.java, lucene/core/src/test/org/apache/lucene/index/TestIndexWriterWithThreads.java,
+                    lucene/core/src/test/org/apache/lucene/index/TestIndexWriterExceptions.java, lucene/core/src/test/org/apache/lucene/index/TestIndexWriter.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4455" target="_blank">LUCENE-4455</a>: CheckIndex shows wrong segment size in 4.0 because SegmentInfoPerCommit.sizeInBytes counts every file 2 times check for deletions is negated and results
+              in wrong output <a href="#" onclick="show_hide('a45'); return false">[more info]</a>
+            </li>
+            <div id="a45">
+              <ul type="circle">
+                <li>
+                  <p>New method testDeletesCheckIndexOutput() in class TestIndexWriterDelete.</p>
+                </li>
+                <li>
+                  <p>Modified method sizeInBytes() in class SegmentInfoPerCommit.</p>
+                </li>
+                <li>
+                  <p>Modified method checkIndex(List&lt;String&gt;) in class CheckIndex.</p>
+                </li>
+                <li>
+                  <p>Modified method testRollingUpdates() in class TestRollingUpdates.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4451" target="_blank">LUCENE-4451</a>: Memory leak per unique thread caused by RandomizedContext.contexts static map <a href="#" onclick="show_hide('a50'); return false">[more info]</a>
+            </li>
+            <div id="a50">
+              <ul type="circle">
+                <li>
+                  <p>New class TestFailIfUnreferencedFiles extending WithNestedTests. This boundary class communicates mainly with Test, Result, and JUnitCore. It allows instantiating test fail if unreferenced files. This class declares the helper class
+                    Nested1.</p>
+                </li>
+                <li>
+                  <p>New method testFiniteStrings() in class TestSpecialOperations.</p>
+                </li>
+                <li>
+                  <p>New method testDeletesCheckIndexOutput() in class TestIndexWriterDelete.</p>
+                </li>
+                <li>
+                  <p>New method acceptResult(IntsRef,T) in class Util.</p>
+                </li>
+                <li>
+                  <p>New file lucene/core/src/java/org/apache/lucene/util/RollingBuffer.java.</p>
+                </li>
+                <li>
+                  <p>New methods token(String,int,int), token(String,int,int,int,int), testSingleToken(), testMultipleHoles(), testSynOverMultipleHoles(), join(String), join(Automaton), s2a(String), testTwoTokens(), testHole(), testOverlappedTokensSausage(),
+                    testOverlappedTokensLattice(), testSynOverHole(), testSynOverHole2(), testOverlappedTokensLattice2(), testToDot(), testStartsWithHole(), and testSynHangingOverEnd() in TestGraphTokenizers.</p>
+                </li>
+                <li>
+                  <p>Modified methods resetTransitions(), and addEpsilon(State) in State.</p>
+                </li>
+                <li>
+                  <p>New methods getFiniteStrings(Automaton,int), and getFiniteStrings(State,HashSet&lt;State&gt;,HashSet&lt;IntsRef&gt;,IntsRef,int) in SpecialOperations.</p>
+                </li>
+                <li>
+                  <p>Modified methods sizeInBytes(), and files() in SegmentInfoPerCommit.</p>
+                </li>
+                <li>
+                  <p>Modified methods rollBackLast(int), testRepeatedRollBacks(), setUp(), and testRollbackDeletionPolicy() in TestTransactionRollback.</p>
+                </li>
+                <li>
+                  <p>Modified methods testRollbackToOldSnapshot(), and testSnapshotLastCommitTwice() in TestSnapshotDeletionPolicy.</p>
+                </li>
+                <li>
+                  <p>New methods join(Thread), and awaitState(Thread.State,Thread) in TestDoc. Modified methods testIndexAndMerge(), merge(Directory,SegmentInfoPerCommit,SegmentInfoPerCommit,String,boolean), testSimpleStall(), testRandom(), join(Thread,long),
+                    and awaitState(long,Thread.State,Thread).</p>
+                </li>
+                <li>
+                  <p>New method assertReaderClosed(IndexReader,boolean) in TestDirectoryReaderReopen. Removed methods performTestsWithExceptionInReopen(TestReopen), and assertRefCountEquals(int,DirectoryReader). Modified methods doTestReopenWithCommit(Random,Directory,boolean),
+                    performDefaultTests(TestReopen), testThreadSafety(), createIndex(Random,Directory,boolean), and assertReaderClosed(IndexReader,boolean,boolean).</p>
+                </li>
+                <li>
+                  <p>Modified methods testDocument(), testBinaryFields(), assertIndexEquals(DirectoryReader,DirectoryReader), and testLoadCertainFields() in TestDirectoryReader.</p>
+                </li>
+                <li>
+                  <p>Modified methods testCrashWhileIndexing(), testWriterAfterCrash(), and testCrashAfterReopen() in TestCrash.</p>
+                </li>
+                <li>
+                  <p>Modified methods prepareFlushedSegment(FlushedSegment), addIndexes(Directory), addIndexes(IndexReader), copySegmentAsIs(SegmentInfoPerCommit,String,IOContext), commitMerge(MergePolicy.OneMerge), _mergeInit(MergePolicy.OneMerge), createCompoundFile(InfoStream,Directory,CheckAbort,final,IOContext),
+                    startCommit(final,final), and rollbackInternal() in IndexWriter.</p>
+                </li>
+                <li>
+                  <p>Modified methods refresh(String), and deleteNewFiles(Collection&lt;String&gt;) in IndexFileDeleter.</p>
+                </li>
+                <li>
+                  <p>Modified methods open(Directory,IndexWriter,SegmentInfos,List&lt;? extends AtomicReader&gt;,int), and doClose() in StandardDirectoryReader.</p>
+                </li>
+                <li>
+                  <p>Modified method testTransactions() in class TestTransactions.</p>
+                </li>
+                <li>
+                  <p>Modified method test() in class TestBagOfPostings.</p>
+                </li>
+                <li>
+                  <p>Modified method valid(Long) in class PositiveIntOutputs.</p>
+                </li>
+                <li>
+                  <p>Modified method abort() in class DocumentsWriterPerThread.</p>
+                </li>
+                <li>
+                  <p>Modified method copy(Directory,String,String,IOContext) in class Directory.</p>
+                </li>
+                <li>
+                  <p>Modified method checkIndex(List&lt;String&gt;) in class CheckIndex.</p>
+                </li>
+                <li>
+                  <p>Modified method testRollingUpdates() in class TestRollingUpdates.</p>
+                </li>
+                <li>
+                  <p>Modified method setUp() in class TestPerFieldPostingsFormat.</p>
+                </li>
+                <li>
+                  <p>Modified method BlockTreeTermsReader(Directory,FieldInfos,SegmentInfo,PostingsReaderBase,IOContext,String,int) in class BlockTreeTermsReader.</p>
+                </li>
+                <li>
+                  <p>Modified method toString() in class LiveIndexWriterConfig.</p>
+                </li>
+                <li>
+                  <p>Files lucene/core/src/java/org/apache/lucene/util/automaton/State.java, lucene/suggest/src/java/org/apache/lucene/search/suggest/analyzing/AnalyzingSuggester.java, lucene/core/src/java/org/apache/lucene/index/IndexWriter.java were refactored.</p>
+                </li>
+                <li>
+                  <p>Licence Apache v2 removed from file lucene/core/src/java/org/apache/lucene/util/automaton/State.java.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/test/org/apache/lucene/util/fst/TestFSTs.java, lucene/core/src/test/org/apache/lucene/index/BinaryTokenStream.java, lucene/core/src/test/org/apache/lucene/index/TestPostingsFormat.java, lucene/core/src/test/org/apache/lucene/index/TestPersistentSnapshotDeletionPolicy.java,
+                    lucene/core/src/test/org/apache/lucene/index/TestNoDeletionPolicy.java, lucene/core/src/test/org/apache/lucene/index/TestIndexWriterWithThreads.java, lucene/core/src/test/org/apache/lucene/index/TestIndexWriterExceptions.java, lucene/core/src/test/org/apache/lucene/index/TestIndexWriter.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4430" target="_blank">LUCENE-4430</a>: Lucene Demo module should not ship with servlet-api.jar file <a href="#" onclick="show_hide('a83'); return false">[more info]</a>
+            </li>
+            <div id="a83">
+              <ul type="circle">
+                <li>
+                  <p>New method acceptResult(IntsRef,T) in class Util.</p>
+                </li>
+                <li>
+                  <p>New method ConcurrentMergeScheduler() in class ConcurrentMergeScheduler.</p>
+                </li>
+                <li>
+                  <p>New method TermVectorsReader() in class TermVectorsReader.</p>
+                </li>
+                <li>
+                  <p>New method Norm() in class Norm.</p>
+                </li>
+                <li>
+                  <p>New method TieredMergePolicy() in class TieredMergePolicy.</p>
+                </li>
+                <li>
+                  <p>New method SegmentInfoReader() in class SegmentInfoReader.</p>
+                </li>
+                <li>
+                  <p>New method SegmentInfoFormat() in class SegmentInfoFormat.</p>
+                </li>
+                <li>
+                  <p>New method DocValues() in class DocValues.</p>
+                </li>
+                <li>
+                  <p>New method PostingsReaderBase() in class PostingsReaderBase.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40FieldInfosFormat() in class Lucene40FieldInfosFormat.</p>
+                </li>
+                <li>
+                  <p>New method DocsAndPositionsEnum() in class DocsAndPositionsEnum.</p>
+                </li>
+                <li>
+                  <p>New method SegmentInfos() in class SegmentInfos.</p>
+                </li>
+                <li>
+                  <p>New method Fields() in class Fields.</p>
+                </li>
+                <li>
+                  <p>New method FieldInfosFormat() in class FieldInfosFormat.</p>
+                </li>
+                <li>
+                  <p>New method testFiniteStrings() in class TestSpecialOperations.</p>
+                </li>
+                <li>
+                  <p>New method DocValuesFormat() in class DocValuesFormat.</p>
+                </li>
+                <li>
+                  <p>New method TermsEnum() in class TermsEnum.</p>
+                </li>
+                <li>
+                  <p>New method FieldInfosWriter() in class FieldInfosWriter.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40SegmentInfoWriter() in class Lucene40SegmentInfoWriter.</p>
+                </li>
+                <li>
+                  <p>New method StoredFieldVisitor() in class StoredFieldVisitor.</p>
+                </li>
+                <li>
+                  <p>New method MappingMultiDocsEnum() in class MappingMultiDocsEnum.</p>
+                </li>
+                <li>
+                  <p>New method TermVectorsFormat() in class TermVectorsFormat.</p>
+                </li>
+                <li>
+                  <p>New method OrdTermState() in class OrdTermState.</p>
+                </li>
+                <li>
+                  <p>New method BlockTermState() in class BlockTermState.</p>
+                </li>
+                <li>
+                  <p>New method StoredFieldsReader() in class StoredFieldsReader.</p>
+                </li>
+                <li>
+                  <p>New method StoredFieldsFormat() in class StoredFieldsFormat.</p>
+                </li>
+                <li>
+                  <p>New method FieldInfosReader() in class FieldInfosReader.</p>
+                </li>
+                <li>
+                  <p>New method PerDocProducerBase() in class PerDocProducerBase.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40FieldInfosReader() in class Lucene40FieldInfosReader.</p>
+                </li>
+                <li>
+                  <p>New method NormsFormat() in class NormsFormat.</p>
+                </li>
+                <li>
+                  <p>New method LiveDocsFormat() in class LiveDocsFormat.</p>
+                </li>
+                <li>
+                  <p>New method IndexCommit() in class IndexCommit.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40NormsFormat() in class Lucene40NormsFormat.</p>
+                </li>
+                <li>
+                  <p>New method Floats() in class Floats.</p>
+                </li>
+                <li>
+                  <p>New method DocsEnum() in class DocsEnum.</p>
+                </li>
+                <li>
+                  <p>New method KeepOnlyLastCommitDeletionPolicy() in class KeepOnlyLastCommitDeletionPolicy.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40SegmentInfoFormat() in class Lucene40SegmentInfoFormat.</p>
+                </li>
+                <li>
+                  <p>New method SegmentInfoWriter() in class SegmentInfoWriter.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40SegmentInfoReader() in class Lucene40SegmentInfoReader.</p>
+                </li>
+                <li>
+                  <p>New method MergeScheduler() in class MergeScheduler.</p>
+                </li>
+                <li>
+                  <p>New method FieldsConsumer() in class FieldsConsumer.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40DocValuesFormat() in class Lucene40DocValuesFormat.</p>
+                </li>
+                <li>
+                  <p>New method SerialMergeScheduler() in class SerialMergeScheduler.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40FieldInfosWriter() in class Lucene40FieldInfosWriter.</p>
+                </li>
+                <li>
+                  <p>New method MergeState() in class MergeState.</p>
+                </li>
+                <li>
+                  <p>New method Terms() in class Terms.</p>
+                </li>
+                <li>
+                  <p>New method PostingsConsumer() in class PostingsConsumer.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40TermVectorsFormat() in class Lucene40TermVectorsFormat.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40LiveDocsFormat() in class Lucene40LiveDocsFormat.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40StoredFieldsFormat() in class Lucene40StoredFieldsFormat.</p>
+                </li>
+                <li>
+                  <p>New method TermState() in class TermState.</p>
+                </li>
+                <li>
+                  <p>New file lucene/core/src/java/org/apache/lucene/util/RollingBuffer.java.</p>
+                </li>
+                <li>
+                  <p>Modified methods merge(MergeState), copyVectorsWithDeletions(MergeState,final,final,int,int), and copyVectorsNoDeletions(MergeState,final,final,int,int) in Lucene40TermVectorsWriter.</p>
+                </li>
+                <li>
+                  <p>Modified methods copyFieldsWithDeletions(MergeState,final,final,int), and copyFieldsNoDeletions(MergeState,final,final,int) in Lucene40StoredFieldsWriter.</p>
+                </li>
+                <li>
+                  <p>New method TermsConsumer() in TermsConsumer. Modified method merge(MergeState,TermsEnum).</p>
+                </li>
+                <li>
+                  <p>New methods TermVectorsWriter(), and close() in TermVectorsWriter.</p>
+                </li>
+                <li>
+                  <p>New methods StoredFieldsWriter(), and close() in StoredFieldsWriter. Modified method addDocument(Iterable&#lt;? extends StorableField&gt;,FieldInfos).</p>
+                </li>
+                <li>
+                  <p>New method PostingsWriterBase() in PostingsWriterBase. Modified method close().</p>
+                </li>
+                <li>
+                  <p>New methods PerDocProducer(), and close() in PerDocProducer.</p>
+                </li>
+                <li>
+                  <p>New methods PerDocConsumer(), and close() in PerDocConsumer.</p>
+                </li>
+                <li>
+                  <p>New method MultiLevelSkipListReader(IndexInput,int,int,int) in MultiLevelSkipListReader. Modified methods MultiLevelSkipListReader(IndexInput,int,int), seekChild(int), close(), and loadSkipLevels().</p>
+                </li>
+                <li>
+                  <p>New method MappingMultiDocsAndPositionsEnum() in MappingMultiDocsAndPositionsEnum. Modified method getPayload().</p>
+                </li>
+                <li>
+                  <p>New method FieldsProducer() in FieldsProducer. Modified method close().</p>
+                </li>
+                <li>
+                  <p>New method DocValuesConsumer() in DocValuesConsumer. Modified method merge(DocValues,int,int,Bits).</p>
+                </li>
+                <li>
+                  <p>New methods token(String,int,int), token(String,int,int,int,int), testSingleToken(), testMultipleHoles(), testSynOverMultipleHoles(), join(String), join(Automaton), s2a(String), testTwoTokens(), testHole(), testOverlappedTokensSausage(),
+                    testOverlappedTokensLattice(), testSynOverHole(), testSynOverHole2(), testOverlappedTokensLattice2(), testToDot(), testStartsWithHole(), and testSynHangingOverEnd() in TestGraphTokenizers.</p>
+                </li>
+                <li>
+                  <p>Modified methods resetTransitions(), and addEpsilon(State) in State.</p>
+                </li>
+                <li>
+                  <p>New methods getFiniteStrings(Automaton,int), and getFiniteStrings(State,HashSet&lt;State&gt;,HashSet&lt;IntsRef&gt;,IntsRef,int) in SpecialOperations.</p>
+                </li>
+                <li>
+                  <p>Modified method resetSkip() in class MultiLevelSkipListWriter.</p>
+                </li>
+                <li>
+                  <p>Modified method visitDocument(int,StoredFieldVisitor) in class Lucene40StoredFieldsReader.</p>
+                </li>
+                <li>
+                  <p>Modified method close() in class Lucene40TermVectorsReader.</p>
+                </li>
+                <li>
+                  <p>Modified method valid(Long) in class PositiveIntOutputs.</p>
+                </li>
+                <li>
+                  <p>Modified method setUp() in class TestPerFieldPostingsFormat.</p>
+                </li>
+                <li>
+                  <p>Removed class UpToTwoPositiveIntOutputs.</p>
+                </li>
+                <li>
+                  <p>Files lucene/core/src/java/org/apache/lucene/util/automaton/State.java, lucene/suggest/src/java/org/apache/lucene/search/suggest/analyzing/AnalyzingSuggester.java were refactored.</p>
+                </li>
+                <li>
+                  <p>Licence Apache v2 removed from file lucene/core/src/java/org/apache/lucene/util/automaton/State.java.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/java/org/apache/lucene/index/UpgradeIndexMergePolicy.java, lucene/core/src/java/org/apache/lucene/index/TwoPhaseCommitTool.java, lucene/core/src/java/org/apache/lucene/index/TermContext.java, lucene/core/src/java/org/apache/lucene/index/SortedBytesMergeUtils.java,
+                    lucene/core/src/java/org/apache/lucene/index/SnapshotDeletionPolicy.java, lucene/core/src/java/org/apache/lucene/index/SlowCompositeReaderWrapper.java, lucene/core/src/java/org/apache/lucene/index/SegmentWriteState.java, lucene/core/src/java/org/apache/lucene/index/SegmentReader.java,
+                    lucene/core/src/java/org/apache/lucene/index/SegmentReadState.java, lucene/core/src/java/org/apache/lucene/index/SegmentInfoPerCommit.java, lucene/core/src/java/org/apache/lucene/index/SegmentInfo.java, lucene/core/src/java/org/apache/lucene/index/ReaderSlice.java,
+                    lucene/core/src/java/org/apache/lucene/index/PerDocWriteState.java, lucene/core/src/java/org/apache/lucene/index/MultiTermsEnum.java, lucene/core/src/java/org/apache/lucene/index/MultiTerms.java, lucene/core/src/java/org/apache/lucene/index/MultiDocsEnum.java,
+                    lucene/core/src/java/org/apache/lucene/index/MultiDocsAndPositionsEnum.java, lucene/core/src/java/org/apache/lucene/index/MergePolicy.java, lucene/core/src/java/org/apache/lucene/index/LogMergePolicy.java, lucene/core/src/java/org/apache/lucene/index/LogDocMergePolicy.java,
+                    lucene/core/src/java/org/apache/lucene/index/LogByteSizeMergePolicy.java, lucene/core/src/java/org/apache/lucene/index/LiveIndexWriterConfig.java, lucene/core/src/java/org/apache/lucene/index/IndexWriter.java, lucene/core/src/java/org/apache/lucene/index/IndexUpgrader.java,
+                    lucene/core/src/java/org/apache/lucene/index/IndexReader.java, lucene/core/src/java/org/apache/lucene/index/IndexNotFoundException.java, lucene/core/src/java/org/apache/lucene/index/IndexFormatTooOldException.java, lucene/core/src/java/org/apache/lucene/index/IndexFormatTooNewException.java,
+                    lucene/core/src/java/org/apache/lucene/index/FieldInvertState.java, lucene/core/src/java/org/apache/lucene/index/FieldInfo.java, lucene/core/src/java/org/apache/lucene/index/DocTermOrds.java, lucene/core/src/java/org/apache/lucene/index/DirectoryReader.java,
+                    lucene/core/src/java/org/apache/lucene/index/CorruptIndexException.java, lucene/core/src/java/org/apache/lucene/index/CompositeReader.java, lucene/core/src/java/org/apache/lucene/index/CheckIndex.java, lucene/core/src/java/org/apache/lucene/index/AtomicReader.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/perfield/PerFieldPostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/values/Ints.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/values/DocValuesWriterBase.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40SkipListWriter.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40SkipListReader.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40PostingsWriter.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40PostingsReader.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40PostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40PostingsBaseFormat.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40DocValuesProducer.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40DocValuesConsumer.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40Codec.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/TermStats.java, lucene/core/src/java/org/apache/lucene/codecs/PostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/PostingsBaseFormat.java, lucene/core/src/java/org/apache/lucene/codecs/FilterCodec.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/DocValuesArraySource.java, lucene/core/src/java/org/apache/lucene/codecs/BlockTreeTermsWriter.java, lucene/core/src/java/org/apache/lucene/codecs/BlockTreeTermsReader.java, lucene/core/src/java/org/apache/lucene/util/fst/Builder.java,
+                    lucene/core/src/test/org/apache/lucene/util/fst/TestFSTs.java, lucene/core/src/test/org/apache/lucene/index/BinaryTokenStream.java, lucene/core/src/test/org/apache/lucene/index/TestPostingsFormat.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4425" target="_blank">LUCENE-4425</a>: Unclear documentation of StoredFieldVisitor.binaryValue <a href="#" onclick="show_hide('a160'); return false">[more info]</a>
+            </li>
+            <div id="a160">
+              <ul type="circle">
+                <li>
+                  <p>New method binaryField(FieldInfo,byte) in StoredFieldVisitor. Removed method binaryField(FieldInfo,byte,int,int).</p>
+                </li>
+                <li>
+                  <p>New method binaryField(FieldInfo,byte) in DocumentStoredFieldVisitor. Removed method binaryField(FieldInfo,byte,int,int).</p>
+                </li>
+                <li>
+                  <p>Modified method readField(StoredFieldVisitor,FieldInfo,int) in class Lucene40StoredFieldsReader.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4423" target="_blank">LUCENE-4423</a>: DocumentStoredFieldVisitor.binaryField ignores offset and length <a href="#" onclick="show_hide('a164'); return false">[more info]</a>
+            </li>
+            <div id="a164">
+              <ul type="circle">
+                <li>
+                  <p>Modified method binaryField(FieldInfo,byte,int,int) in class DocumentStoredFieldVisitor.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4401" target="_blank">LUCENE-4401</a>: ArrayIndexOutOfBoundsException for surround parser <a href="#" onclick="show_hide('a166'); return false">[more info]</a>
+            </li>
+            <div id="a166">
+              <ul type="circle">
+                <li>
+                  <p>Modified methods nextDoc(), and afterNext() in DisjunctionSumScorer.</p>
+                </li>
+                <li>
+                  <p>Modified file lucene/core/src/java/org/apache/lucene/search/ConstantScoreQuery.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4398" target="_blank">LUCENE-4398</a>: &quot;Memory Leak&quot; in TermsHashPerField memory tracking <a href="#" onclick="show_hide('a169'); return false">[more info]</a>
+            </li>
+            <div id="a169">
+              <ul type="circle">
+                <li>
+                  <p>New method testRotatingFieldNames() in TestIndexWriter. Modified methods testBinaryFieldOffsetLength(), testIndexStoreCombos(), and testStoredFieldsOrder().</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4391" target="_blank">LUCENE-4391</a>: Lucene40Codec methods should be final <a href="#" onclick="show_hide('a171'); return false">[more info]</a>
+            </li>
+            <div id="a171">
+              <ul type="circle">
+                <li>
+                  <p>New abstract class FilterCodec extending Codec. This entity class consists mostly of accessor methods. It provides access to segment info format, postings format, doc values format, stored fields format, norms format, term vectors format,
+                    field infos format, docs format.</p>
+                </li>
+                <li>
+                  <p>Modified methods fieldsConsumer(SegmentWriteState), and fieldsProducer(SegmentReadState) in PerFieldPostingsFormat.</p>
+                </li>
+                <li>
+                  <p>Modified methods storedFieldsFormat(), termVectorsFormat(), docValuesFormat(), postingsFormat(), fieldInfosFormat(), segmentInfoFormat(), normsFormat(), and liveDocsFormat() in Lucene40Codec.</p>
+                </li>
+                <li>
+                  <p>Modified method testFieldNamesChanged() in class TestAddIndexes.</p>
+                </li>
+                <li>
+                  <p>Class Lucene40PostingsFormat is now final.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4377" target="_blank">LUCENE-4377</a>: consolidate various copyBytes() methods <a href="#" onclick="show_hide('a177'); return false">[more info]</a>
+            </li>
+            <div id="a177">
+              <ul type="circle">
+                <li>
+                  <p>Modified method testCopyBytesWithThreads() in class TestCopyBytes.</p>
+                </li>
+                <li>
+                  <p>Modified method copy(Directory,String,String,IOContext) in class Directory.</p>
+                </li>
+                <li>
+                  <p>Modified method unCache(String) in class NRTCachingDirectory.</p>
+                </li>
+                <li>
+                  <p>Removed method copyBytes(DataInput,long) from class RAMOutputStream.</p>
+                </li>
+                <li>
+                  <p>Removed method copyBytes(IndexOutput,long) from classes RAMInputStream, IndexInput, BufferedIndexInput.</p>
+                </li>
+                <li>
+                  <p>Modified file lucene/core/src/java/org/apache/lucene/store/SimpleFSDirectory.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4364" target="_blank">LUCENE-4364</a>: MMapDirectory makes too many maps for CFS <a href="#" onclick="show_hide('a184'); return false">[more info]</a>
+            </li>
+            <div id="a184">
+              <ul type="circle">
+                <li>
+                  <p>New abstract class ByteBufferIndexInput extending IndexInput. This entity class includes accessor and mutator methods, and some business logic. It provides access to short, byte buffer index input long, int, length, file pointer. It
+                    allows managing bytes, and byte.It also allows closing byte buffer index input, seeking byte buffer index input, cloning byte buffer index input, and slicing byte buffer index input.</p>
+                </li>
+                <li>
+                  <p>New methods testCloneSliceSafety(), testSeekSliceZero(), testSeekSliceEnd(), testSlicedSeeking(), testCloneClose(), and testCloneSliceClose() in TestMultiMMap. Modified methods testSeekZero(), testSeekEnd(), testSeeking(), assertChunking(Random,int),
+                    testCloneSafety(), testCloneSliceSafety(), testSeekSliceEnd(), and testCloneClose().</p>
+                </li>
+                <li>
+                  <p>New method MMapDirectory(File,LockFactory,int) in MMapDirectory. Modified methods MMapDirectory(File,LockFactory), and MMapDirectory(File).</p>
+                </li>
+                <li>
+                  <p>New method readEntries(Directory,String) in CompoundFileDirectory. Removed method readEntries(IndexInputSlicer,Directory,String). Modified methods CompoundFileDirectory(Directory,String,IOContext,boolean), and createSlicer(final,IOContext).</p>
+                </li>
+                <li>
+                  <p>Modified method createSlicer(final,final) in classes SimpleFSDirectory, NIOFSDirectory, Directory.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4322" target="_blank">LUCENE-4322</a>: Can we make oal.util.packed.BulkOperation* smaller? <a href="#" onclick="show_hide('a190'); return false">[more info]</a>
+            </li>
+            <div id="a190">
+              <ul type="circle">
+                <li>
+                  <p>New class BulkOperationPackedSingleBlock extending BulkOperation. This boundary class consists mostly of accessor methods. It provides access to BLOCK COUNT, value count. It allows decoding bulk operation packed single block, and encoding
+                    bulk operation packed single block.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked extending BulkOperation. This boundary class consists mostly of accessor methods. It provides access to value count, block count. It allows decoding bulk operation packed, and encoding bulk operation packed.</p>
+                </li>
+                <li>
+                  <p>New methods writeLong(long,byte,int), BulkOperationPackedSingleBlock(int), blockCount(), valueCount(), readLong(byte,int), decode(long,long,int), decode(long,int,int), encode(long,int), encode(int,int), decode(long,int,long,int,int),
+                    decode(byte,int,long,int,int), decode(long,int,int,int,int), decode(byte,int,int,int,int), encode(long,int,long,int,int), encode(int,int,long,int,int), encode(long,int,byte,int,int), encode(int,int,byte,int,int), and BulkOperationPacked(int)
+                    in BulkOperation. Removed methods toLongArray(int,int,int), encode(int,int,long,int,int), encode(long,int,byte,int,int), encode(int,int,byte,int,int), blockCount(), valueCount(), decode(long,int,int,int,int), decode(byte,int,int,int,int),
+                    decode(long,int,long,int,int), decode(byte,int,long,int,int), encode(long,int,long,int,int), BulkOperationPackedSingleBlock9(), BulkOperationPackedSingleBlock8(), BulkOperationPackedSingleBlock7(), BulkOperationPackedSingleBlock6(),
+                    BulkOperationPackedSingleBlock5(), BulkOperationPackedSingleBlock4(), BulkOperationPackedSingleBlock3(), BulkOperationPackedSingleBlock21(), BulkOperationPackedSingleBlock2(), BulkOperationPackedSingleBlock16(), BulkOperationPackedSingleBlock12(),
+                    BulkOperationPackedSingleBlock10(), and BulkOperationPackedSingleBlock1(). Modified methods BulkOperationPacked9(), decode(long,int,int,int,int), decode(byte,int,int,int,int), decode(long,int,long,int,int), decode(byte,int,long,int,int),
+                    BulkOperationPacked8(), BulkOperationPacked7(), BulkOperationPacked6(), BulkOperationPacked5(), BulkOperationPacked4(), BulkOperationPacked3(), BulkOperationPacked24(), BulkOperationPacked23(), BulkOperationPacked22(), BulkOperationPacked21(),
+                    BulkOperationPacked20(), BulkOperationPacked2(), BulkOperationPacked19(), BulkOperationPacked18(), BulkOperationPacked17(), BulkOperationPacked16(), BulkOperationPacked15(), BulkOperationPacked14(), BulkOperationPacked13(), BulkOperationPacked12(),
+                    BulkOperationPacked11(), BulkOperationPacked10(), and BulkOperationPacked1().</p>
+                </li>
+                <li>
+                  <p>Removed classes BulkOperationPackedSingleBlock32, BulkOperationPacked64, BulkOperationPacked63, BulkOperationPacked62, BulkOperationPacked61, BulkOperationPacked60, BulkOperationPacked59, BulkOperationPacked58, BulkOperationPacked57,
+                    BulkOperationPacked56, BulkOperationPacked55, BulkOperationPacked54, BulkOperationPacked53, BulkOperationPacked52, BulkOperationPacked51, BulkOperationPacked50, BulkOperationPacked49, BulkOperationPacked48, BulkOperationPacked47, BulkOperationPacked46,
+                    BulkOperationPacked45, BulkOperationPacked44, BulkOperationPacked43, BulkOperationPacked42, BulkOperationPacked41, BulkOperationPacked40, BulkOperationPacked39, BulkOperationPacked38, BulkOperationPacked37, BulkOperationPacked36, BulkOperationPacked35,
+                    BulkOperationPacked34, BulkOperationPacked33, BulkOperationPacked32, BulkOperationPacked31, BulkOperationPacked30, BulkOperationPacked29, BulkOperationPacked28, BulkOperationPacked27, BulkOperationPacked26, BulkOperationPacked25, BulkOperationPackedSingleBlock9,
+                    BulkOperationPackedSingleBlock8, BulkOperationPackedSingleBlock7, BulkOperationPackedSingleBlock6, BulkOperationPackedSingleBlock5, BulkOperationPackedSingleBlock4, BulkOperationPackedSingleBlock3, BulkOperationPackedSingleBlock21,
+                    BulkOperationPackedSingleBlock2, BulkOperationPackedSingleBlock16, BulkOperationPackedSingleBlock12, BulkOperationPackedSingleBlock10, and BulkOperationPackedSingleBlock1.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4321" target="_blank">LUCENE-4321</a>: java.io.FilterReader considered harmful <a href="#" onclick="show_hide('a196'); return false">[more info]</a>
+            </li>
+            <div id="a196">
+              <ul type="circle">
+                <li>
+                  <p>New method close() in CharFilter. Removed method CharFilter(Reader). Modified method correctOffset(int).</p>
+                </li>
+                <li>
+                  <p>Modified file lucene/core/src/test/org/apache/lucene/analysis/TestCharFilter.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4317" target="_blank">LUCENE-4317</a>: Field.java does not reuse its inlined Keyword-TokenStream <a href="#" onclick="show_hide('a199'); return false">[more info]</a>
+            </li>
+            <div id="a199">
+              <ul type="circle">
+                <li>
+                  <p>Modified methods setByteValue(byte), setShortValue(short), setIntValue(int), setLongValue(long), setFloatValue(float), setDoubleValue(double), and tokenStream(Analyzer) in Field.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4315" target="_blank">LUCENE-4315</a>: Minor fixes for Fields abstract class, TermVectorsWriter <a href="#" onclick="show_hide('a201'); return false">[more info]</a>
+            </li>
+            <div id="a201">
+              <ul type="circle">
+                <li>
+                  <p>New method testReusableStringReader() in class TestField.</p>
+                </li>
+                <li>
+                  <p>Modified methods merge(MergeState), and addAllDocVectors(Fields,MergeState) in TermVectorsWriter.</p>
+                </li>
+                <li>
+                  <p>Modified method fieldsProducer(SegmentReadState) in class MemoryPostingsFormat.</p>
+                </li>
+                <li>
+                  <p>Modified method tokenStream(Analyzer) in class Field.</p>
+                </li>
+                <li>
+                  <p>Modified method size() in class Fields.</p>
+                </li>
+                <li>
+                  <p>Modified method iterator() in classes SimpleTextFieldsReader, BlockTreeTermsReader.</p>
+                </li>
+                <li>
+                  <p>Removed class UnmodifiableIterator
+                    <T>.</p>
+                </li>
+                <li>
+                  <p>File lucene/core/src/java/org/apache/lucene/util/UnmodifiableIterator.java has been removed.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/java/org/apache/lucene/search/FieldCacheImpl.java, lucene/core/src/java/org/apache/lucene/index/ParallelAtomicReader.java, lucene/core/src/java/org/apache/lucene/index/FilterAtomicReader.java, lucene/core/src/java/org/apache/lucene/codecs/simpletext/SimpleTextTermVectorsReader.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/perfield/PerFieldPostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/memory/DirectPostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/bloom/BloomFilteringPostingsFormat.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4313" target="_blank">LUCENE-4313</a>: IntelliJ classpath doesn&apos t include phonetic and morfologik resources/ directories <a href="#" onclick="show_hide('a211'); return false">[more info]</a>
+            </li>
+            <div id="a211">
+              <ul type="circle">
+                <li>
+                  <p>Modified file lucene/core/src/java/org/apache/lucene/search/DocIdSetIterator.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4310" target="_blank">LUCENE-4310</a>: NormalizeCharMap.build creates utf32-keyed automaton and uses it with utf16 keys <a href="#" onclick="show_hide('a213'); return false">[more info]</a>
+            </li>
+            <div id="a213">
+              <ul type="circle">
+                <li>
+                  <p>Modified files lucene/core/src/java/org/apache/lucene/util/fst/Util.java, lucene/core/src/java/org/apache/lucene/util/fst/Util.java, lucene/core/src/java/org/apache/lucene/util/fst/Util.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4308" target="_blank">LUCENE-4308</a>: Check what&apos s wrong with reporting unclosed directories with previous errors <a href="#" onclick="show_hide('a215'); return false">[more info]</a>
+            </li>
+            <div id="a215">
+              <ul type="circle">
+                <li>
+                  <p>New class TestLeaveFilesIfTestFails extending WithNestedTests. This boundary class communicates mainly with Test, Result, and JUnitCore. It allows instantiating test leave files if test fails. This class declares the helper class Nested1.</p>
+                </li>
+                <li>
+                  <p>File lucene/core/src/test/org/apache/lucene/util/junitcompat/TestLeaveFilesIfTestFails.java was refactored.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4304" target="_blank">LUCENE-4304</a>: Remove PayloadProcessProvider <a href="#" onclick="show_hide('a219'); return false">[more info]</a>
+            </li>
+            <div id="a219">
+              <ul type="circle">
+                <li>
+                  <p>Modified methods merge(Directory,SegmentInfoPerCommit,SegmentInfoPerCommit,String,boolean), testDocValuesSimple(), testRandom(), and testRandomWithPrefix() in TestDoc.</p>
+                </li>
+                <li>
+                  <p>New method SegmentMerger(SegmentInfo,InfoStream,Directory,int,MergeState.CheckAbort,FieldInfos.FieldNumbers,IOContext) in SegmentMerger. Modified methods SegmentMerger(SegmentInfo,InfoStream,Directory,int,MergeState.CheckAbort,PayloadProcessorProvider,FieldInfos.FieldNumbers,IOContext),
+                    and setDocMaps().</p>
+                </li>
+                <li>
+                  <p>Removed method setPayloadProcessorProvider(PayloadProcessorProvider) from IndexWriter. Modified methods addIndexes(IndexReader), and mergeMiddle(MergePolicy.OneMerge).</p>
+                </li>
+                <li>
+                  <p>Modified methods merge(MergeState), copyVectorsWithDeletions(MergeState,final,final,int,int), and copyVectorsNoDeletions(MergeState,final,final,int,int) in Lucene40TermVectorsWriter.</p>
+                </li>
+                <li>
+                  <p>Modified methods merge(MergeState), and addAllDocVectors(Fields,MergeState) in TermVectorsWriter.</p>
+                </li>
+                <li>
+                  <p>Modified methods assertValues(TestType,Directory,long,Type), and testMergeIncompatibleTypes() in TestTypePromotion.</p>
+                </li>
+                <li>
+                  <p>Modified methods indexSerial(Random,Map
+                    <String,Document>,Directory), printDocs(DirectoryReader), verifyEquals(DirectoryReader,DirectoryReader,String), and verifyEquals(Fields,Fields) in TestStressIndexing2.</p>
+                </li>
+                <li>
+                  <p>Modified methods queryTest(Query), and parallel(Random,boolean) in TestParallelCompositeReader.</p>
+                </li>
+                <li>
+                  <p>Modified methods testBinaryFieldOffsetLength(), testIndexStoreCombos(), testStoredFieldsOrder(), and testNoUnwantedTVFiles() in TestIndexWriter.</p>
+                </li>
+                <li>
+                  <p>Modified methods beforeClass(), test(), and testNumericField() in TestFieldsReader.</p>
+                </li>
+                <li>
+                  <p>New method assertReaderClosed(IndexReader,boolean) in TestDirectoryReaderReopen. Removed methods performTestsWithExceptionInReopen(TestReopen), and assertRefCountEquals(int,DirectoryReader). Modified methods doTestReopenWithCommit(Random,Directory,boolean),
+                    performDefaultTests(TestReopen), testThreadSafety(), createIndex(Random,Directory,boolean), and assertReaderClosed(IndexReader,boolean,boolean).</p>
+                </li>
+                <li>
+                  <p>Modified methods testDocument(), testBinaryFields(), assertIndexEquals(DirectoryReader,DirectoryReader), testFieldCacheReuseAfterReopen(), testUniqueTermCount(), testNoTermsIndex(), and testLoadCertainFields() in TestDirectoryReader.</p>
+                </li>
+                <li>
+                  <p>Modified methods testKeepAllDeletionPolicy(), and testOpenPriorSnapshot() in TestDeletionPolicy.</p>
+                </li>
+                <li>
+                  <p>Modified methods testReuseDocsEnumNoReuse(), testReuseDocsEnumSameBitsOrNull(), and testReuseDocsEnumDifferentReader() in TestReuseDocsEnum.</p>
+                </li>
+                <li>
+                  <p>Modified method runTest(Random,Directory) in class TestThreadedForceMerge.</p>
+                </li>
+                <li>
+                  <p>Modified method testMixupDocs() in class TestPayloads.</p>
+                </li>
+                <li>
+                  <p>Modified method getPayload() in class MappingMultiDocsAndPositionsEnum.</p>
+                </li>
+                <li>
+                  <p>Modified method testCommitOnCloseForceMerge() in class TestIndexWriterCommit.</p>
+                </li>
+                <li>
+                  <p>Modified method test() in class TestTermVectorsReader.</p>
+                </li>
+                <li>
+                  <p>Modified method assertSame(IndexSearcher,NodeState.ShardIndexSearcher,Query,Sort,PreviousSearchState) in class TestShardSearching.</p>
+                </li>
+                <li>
+                  <p>Modified method testRandom() in class TestPostingsOffsets.</p>
+                </li>
+                <li>
+                  <p>Modified method getAllDescendantReaderKeys(Object) in class FieldCacheSanityChecker.</p>
+                </li>
+                <li>
+                  <p>Modified method getSequentialSubReaders() in class CompositeReader.</p>
+                </li>
+                <li>
+                  <p>Modified method merge(MergeState,TermsEnum) in class TermsConsumer.</p>
+                </li>
+                <li>
+                  <p>Modified method testBackgroundForceMerge() in class TestIndexWriterForceMerge.</p>
+                </li>
+                <li>
+                  <p>Modified method testMerge() in class TestSegmentMerger.</p>
+                </li>
+                <li>
+                  <p>Removed classes TestPayloadProcessorProvider, and PayloadProcessorProvider.</p>
+                </li>
+                <li>
+                  <p>Modified file lucene/core/src/java/org/apache/lucene/index/MergeState.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4300" target="_blank">LUCENE-4300</a>: BooleanQuery inconsistently applies coord() if it rewrites itself <a href="#" onclick="show_hide('a248'); return false">[more info]</a>
+            </li>
+            <div id="a248">
+              <ul type="circle">
+                <li>
+                  <p>New methods assertSubsetOfSameScores(Query,TopDocs,TopDocs), testRewriteCoord1(), and testRewriteNegate() in TestBooleanMinShouldMatch. Modified method testRandomQueries().</p>
+                </li>
+                <li>
+                  <p>Modified file lucene/core/src/java/org/apache/lucene/search/BooleanQuery.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4299" target="_blank">LUCENE-4299</a>: No way to find term vectors options at read time <a href="#" onclick="show_hide('a251'); return false">[more info]</a>
+            </li>
+            <div id="a251">
+              <ul type="circle">
+                <li>
+                  <p>New methods hasOffsets(), and hasPositions() in Terms.</p>
+                </li>
+                <li>
+                  <p>New methods hasOffsets(), and hasPositions() in MultiTerms. Modified method MultiTerms(Terms,ReaderSlice).</p>
+                </li>
+                <li>
+                  <p>Modified methods checkFields(Fields,Bits,int,FieldInfos,boolean,boolean), and testTermVectors(FieldInfos,SegmentInfoPerCommit,SegmentReader,NumberFormat) in CheckIndex.</p>
+                </li>
+                <li>
+                  <p>Modified method get(int) in class SimpleTextTermVectorsReader.</p>
+                </li>
+                <li>
+                  <p>Modified method addAllDocVectors(Fields,FieldInfos) in class TermVectorsWriter.</p>
+                </li>
+                <li>
+                  <p>Modified method assertTerms(Terms,Terms,boolean) in class TestDuelingCodecs.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/test/org/apache/lucene/search/FieldCacheRewriteMethod.java, lucene/core/src/java/org/apache/lucene/index/FilterAtomicReader.java, lucene/core/src/java/org/apache/lucene/codecs/simpletext/SimpleTextFieldsReader.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/memory/MemoryPostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/memory/DirectPostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40TermVectorsReader.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/bloom/BloomFilteringPostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/BlockTreeTermsReader.java, lucene/core/src/java/org/apache/lucene/codecs/BlockTermsReader.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4298" target="_blank">LUCENE-4298</a>: Infinite recursion in MultiFields.getTermDocsEnum(IndexReader r, Bits liveDocs, String field, BytesRef term) <a href="#" onclick="show_hide('a259'); return false">[more info]</a>
+            </li>
+            <div id="a259">
+              <ul type="circle">
+                <li>
+                  <p>New method testTermDocsEnum() in class TestMultiFields.</p>
+                </li>
+                <li>
+                  <p>Modified method getTermDocsEnum(IndexReader,Bits,String,BytesRef) in class MultiFields.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4297" target="_blank">LUCENE-4297</a>: BooleanScorer2 sometimes multiplies coord() twice into the score <a href="#" onclick="show_hide('a262'); return false">[more info]</a>
+            </li>
+            <div id="a262">
+              <ul type="circle">
+                <li>
+                  <p>Modified methods beforeClass(), testRandomQueries(), and randBoolQuery(Random,boolean,int,String,String,Callback) in TestBoolean2.</p>
+                </li>
+                <li>
+                  <p>New methods ConjunctionScorer(Weight,Collection&lt;Scorer&gt;), and ConjunctionScorer(Weight,Scorer) in ConjunctionScorer. Modified methods ConjunctionScorer(Weight,float,Collection&lt;Scorer&gt;), ConjunctionScorer(Weight,float,Scorer),
+                    and score().</p>
+                </li>
+                <li>
+                  <p>Modified methods countingConjunctionSumScorer(boolean,List&lt;Scorer&gt;), and dualConjunctionSumScorer(boolean,Scorer,Scorer) in BooleanScorer2.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4292" target="_blank">LUCENE-4292</a>: TestPerfTasksLogic.testBGSearchTaskThreads assertion error <a href="#" onclick="show_hide('a266'); return false">[more info]</a>
+            </li>
+            <div id="a266">
+              <ul type="circle">
+                <li>
+                  <p>New method getNextSkipDoc() in BlockSkipReader. Modified method BlockSkipReader(IndexInput,int,int,boolean,boolean,boolean).</p>
+                </li>
+                <li>
+                  <p>New method BlockPostingsWriter(SegmentWriteState,float) in BlockPostingsWriter. Removed method writeBlock(int,IndexOutput). Modified methods BlockPostingsWriter(SegmentWriteState), start(IndexOutput), startDoc(int,int), addPosition(int,BytesRef,int,int),
+                    finishDoc(), finishTerm(TermStats), and BlockPostingsWriter(SegmentWriteState,float).</p>
+                </li>
+                <li>
+                  <p>Removed methods readBlock(IndexInput,byte,IntBuffer,int), and skipBlock(IndexInput) from BlockPostingsReader. Modified methods init(IndexInput), nextTerm(FieldInfo,BlockTermState), BlockPostingsReader(Directory,FieldInfos,SegmentInfo,IOContext,String),
+                    and readVIntBlock(IndexInput,int,int,int,boolean).</p>
+                </li>
+                <li>
+                  <p>Modified method BlockSkipWriter(int,int,int,IndexOutput,IndexOutput,IndexOutput) in class BlockSkipWriter.</p>
+                </li>
+                <li>
+                  <p>Modified method test() in class TestPostingsFormat.</p>
+                </li>
+                <li>
+                  <p>Removed classes ForUtil, BlockPackedSkipWriter, BlockPackedSkipReader, BlockPackedSkipReader, BlockPackedPostingsWriter, BlockPackedPostingsWriter, BlockPackedPostingsReader, BlockPackedPostingsFormat, PackedIntsDecompress, and PackedIntsDecompress.</p>
+                </li>
+                <li>
+                  <p>Classes ForUtil, ForUtil are not public anymore.</p>
+                </li>
+                <li>
+                  <p>File TestForUtil.java moved from lucene/core/src/test/org/apache/lucene/codecs/blockpacked to lucene/core/src/test/org/apache/lucene/codecs/block.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/java/org/apache/lucene/codecs/MultiLevelSkipListReader.java, lucene/core/src/java/org/apache/lucene/codecs/block/BlockPostingsFormat.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4218" target="_blank">LUCENE-4218</a>: contrary to documentation Document.get(field) on numeric field returns null <a href="#" onclick="show_hide('a276'); return false">[more info]</a>
+            </li>
+            <div id="a276">
+              <ul type="circle">
+                <li>
+                  <p>New method testNumericFieldAsString() in class TestDocument.</p>
+                </li>
+                <li>
+                  <p>Modified method stringValue() in class Field.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4152" target="_blank">LUCENE-4152</a>: add one-syllable method to IndexReader enumerate subreaders <a href="#" onclick="show_hide('a279'); return false">[more info]</a>
+            </li>
+            <div id="a279">
+              <ul type="circle">
+                <li>
+                  <p>New method leaves() in IndexReader. Modified methods document(int), and document(int,Set&lt;String&gt;).</p>
+                </li>
+                <li>
+                  <p>Modified methods testInvalidUTF16(), and testTermUTF16SortOrder() in TestIndexWriterUnicode.</p>
+                </li>
+                <li>
+                  <p>Modified methods getFields(IndexReader), and getLiveDocs(IndexReader) in MultiFields.</p>
+                </li>
+                <li>
+                  <p>Modified method add(IndexReader) in class SegmentMerger.</p>
+                </li>
+                <li>
+                  <p>Modified method getDocValues(IndexReader,final,final) in class MultiDocValues.</p>
+                </li>
+                <li>
+                  <p>Modified method tryDeleteDocument(IndexReader,int) in class IndexWriter.</p>
+                </li>
+                <li>
+                  <p>Modified file lucene/core/src/test/org/apache/lucene/index/TestIndexWriterExceptions.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-2925" target="_blank">LUCENE-2925</a>: modules/* are excluded from the versioned site javadocs <a href="#" onclick="show_hide('a287'); return false">[more info]</a>
+            </li>
+            <div id="a287">
+              <ul type="circle">
+                <li>
+                  <p>New method testBooleanScorerMax() in class TestBooleanOr.</p>
+                </li>
+                <li>
+                  <p>Modified methods doOpenNoWriter(IndexCommit), doOpenIfChanged(SegmentInfos,IndexWriter), and doClose() in StandardDirectoryReader.</p>
+                </li>
+                <li>
+                  <p>New method getContext() in CompositeReader. Modified method getSequentialSubReaders().</p>
+                </li>
+                <li>
+                  <p>Modified methods score(Collector,int,int), freq(), and getChildren() in BooleanScorer.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/java/org/apache/lucene/index/CompositeReader.java, lucene/core/src/java/org/apache/lucene/search/BooleanQuery.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4397" target="_blank">LUCENE-4397</a>: TestIndexWriterWithThreads.testRollbackAndCommitWithThreads is sometimes very very slow <a href="#" onclick="show_hide('a293'); return false">[more info]</a>
+            </li>
+            <div id="a293">
+              <ul type="circle">
+                <li>
+                  <p>Modified file lucene/core/src/test/org/apache/lucene/index/TestIndexWriterWithThreads.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4053" target="_blank">LUCENE-4053</a>: Large sysout/syserr spills from a test/ suite shouldn&apos t cause OOMs in the runner <a href="#" onclick="show_hide('a295'); return false">[more info]</a>
+            </li>
+            <div id="a295">
+              <ul type="circle">
+                <li>
+                  <p>New class TestWorstCaseTestBehavior extending LuceneTestCase. It allows handling test zombie, handling test uncaught exception, handling test timeout, handling test laaaaaarge output, handling test progressive output, and handling test
+                    thread leak.</p>
+                </li>
+                <li>
+                  <p>Modified methods testEmptyFieldSort(), and testParallelMultiSort() in TestSort.</p>
+                </li>
+                <li>
+                  <p>Removed methods testReaderChaining(), and tearDown() from TestReaderClosed.</p>
+                </li>
+                <li>
+                  <p>Modified method testConcurrentHashMap() in class TestWeakIdentityMap.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/test/org/apache/lucene/index/TestDocumentsWriterStallControl.java, lucene/core/src/test/org/apache/lucene/index/Test2BPostings.java.</p>
+                </li>
+              </ul>
+            </div>
+          </ol>
+        </div>
+
+        <h2><a href="#" onclick="show_hide('a757'); return false">Improvements</a> (17)</h2>
+        <div id="a757">
+          <ol>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4448" target="_blank">LUCENE-4448</a>: speedups for AnalyzingSuggester
+              <a href="#" onclick="show_hide('a304'); return false"></a>
+            </li>
+            <div id="a304">
+              <ul type="circle">
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4440" target="_blank">LUCENE-4440</a>: FilterCodec should take a delegate Codec in its ctor <a href="#" onclick="show_hide('a305'); return false">[more info]</a>
+            </li>
+            <div id="a305">
+              <ul type="circle">
+                <li>
+                  <p>Modified methods forName(String), and availablePostingsFormats() in PostingsFormat.</p>
+                </li>
+                <li>
+                  <p>New method FilterCodec(String,Codec) in FilterCodec. Removed method delegate(). Modified methods FilterCodec(String), docValuesFormat(), fieldInfosFormat(), liveDocsFormat(), normsFormat(), postingsFormat(), segmentInfoFormat(), storedFieldsFormat(),
+                    and termVectorsFormat().</p>
+                </li>
+                <li>
+                  <p>Modified methods Codec(String), forName(String), and availableCodecs() in Codec.</p>
+                </li>
+                <li>
+                  <p>Modified file lucene/core/src/test/org/apache/lucene/index/TestAddIndexes.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4421" target="_blank">LUCENE-4421</a>: TermsFilter should use TermsEnum.seekExact not seekCeil <a href="#" onclick="show_hide('a310'); return false">[more info]</a>
+            </li>
+            <div id="a310">
+              <ul type="circle">
+                <li>
+                  <p>New method acceptResult(IntsRef,T) in class Util.</p>
+                </li>
+                <li>
+                  <p>New method ConcurrentMergeScheduler() in class ConcurrentMergeScheduler.</p>
+                </li>
+                <li>
+                  <p>New method TermVectorsReader() in class TermVectorsReader.</p>
+                </li>
+                <li>
+                  <p>New method Norm() in class Norm.</p>
+                </li>
+                <li>
+                  <p>New method TieredMergePolicy() in class TieredMergePolicy.</p>
+                </li>
+                <li>
+                  <p>New method SegmentInfoReader() in class SegmentInfoReader.</p>
+                </li>
+                <li>
+                  <p>New method SegmentInfoFormat() in class SegmentInfoFormat.</p>
+                </li>
+                <li>
+                  <p>New method DocValues() in class DocValues.</p>
+                </li>
+                <li>
+                  <p>New method PostingsReaderBase() in class PostingsReaderBase.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40FieldInfosFormat() in class Lucene40FieldInfosFormat.</p>
+                </li>
+                <li>
+                  <p>New method DocsAndPositionsEnum() in class DocsAndPositionsEnum.</p>
+                </li>
+                <li>
+                  <p>New method SegmentInfos() in class SegmentInfos.</p>
+                </li>
+                <li>
+                  <p>New method Fields() in class Fields.</p>
+                </li>
+                <li>
+                  <p>New method FieldInfosFormat() in class FieldInfosFormat.</p>
+                </li>
+                <li>
+                  <p>New method testFiniteStrings() in class TestSpecialOperations.</p>
+                </li>
+                <li>
+                  <p>New method DocValuesFormat() in class DocValuesFormat.</p>
+                </li>
+                <li>
+                  <p>New method TermsEnum() in class TermsEnum.</p>
+                </li>
+                <li>
+                  <p>New method FieldInfosWriter() in class FieldInfosWriter.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40SegmentInfoWriter() in class Lucene40SegmentInfoWriter.</p>
+                </li>
+                <li>
+                  <p>New method StoredFieldVisitor() in class StoredFieldVisitor.</p>
+                </li>
+                <li>
+                  <p>New method MappingMultiDocsEnum() in class MappingMultiDocsEnum.</p>
+                </li>
+                <li>
+                  <p>New method TermVectorsFormat() in class TermVectorsFormat.</p>
+                </li>
+                <li>
+                  <p>New method OrdTermState() in class OrdTermState.</p>
+                </li>
+                <li>
+                  <p>New method BlockTermState() in class BlockTermState.</p>
+                </li>
+                <li>
+                  <p>New method StoredFieldsReader() in class StoredFieldsReader.</p>
+                </li>
+                <li>
+                  <p>New method StoredFieldsFormat() in class StoredFieldsFormat.</p>
+                </li>
+                <li>
+                  <p>New method FieldInfosReader() in class FieldInfosReader.</p>
+                </li>
+                <li>
+                  <p>New method PerDocProducerBase() in class PerDocProducerBase.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40FieldInfosReader() in class Lucene40FieldInfosReader.</p>
+                </li>
+                <li>
+                  <p>New method NormsFormat() in class NormsFormat.</p>
+                </li>
+                <li>
+                  <p>New method LiveDocsFormat() in class LiveDocsFormat.</p>
+                </li>
+                <li>
+                  <p>New method IndexCommit() in class IndexCommit.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40NormsFormat() in class Lucene40NormsFormat.</p>
+                </li>
+                <li>
+                  <p>New method Floats() in class Floats.</p>
+                </li>
+                <li>
+                  <p>New method DocsEnum() in class DocsEnum.</p>
+                </li>
+                <li>
+                  <p>New method KeepOnlyLastCommitDeletionPolicy() in class KeepOnlyLastCommitDeletionPolicy.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40SegmentInfoFormat() in class Lucene40SegmentInfoFormat.</p>
+                </li>
+                <li>
+                  <p>New method SegmentInfoWriter() in class SegmentInfoWriter.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40SegmentInfoReader() in class Lucene40SegmentInfoReader.</p>
+                </li>
+                <li>
+                  <p>New method MergeScheduler() in class MergeScheduler.</p>
+                </li>
+                <li>
+                  <p>New method FieldsConsumer() in class FieldsConsumer.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40DocValuesFormat() in class Lucene40DocValuesFormat.</p>
+                </li>
+                <li>
+                  <p>New method SerialMergeScheduler() in class SerialMergeScheduler.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40FieldInfosWriter() in class Lucene40FieldInfosWriter.</p>
+                </li>
+                <li>
+                  <p>New method MergeState() in class MergeState.</p>
+                </li>
+                <li>
+                  <p>New method Terms() in class Terms.</p>
+                </li>
+                <li>
+                  <p>New method PostingsConsumer() in class PostingsConsumer.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40TermVectorsFormat() in class Lucene40TermVectorsFormat.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40LiveDocsFormat() in class Lucene40LiveDocsFormat.</p>
+                </li>
+                <li>
+                  <p>New method Lucene40StoredFieldsFormat() in class Lucene40StoredFieldsFormat.</p>
+                </li>
+                <li>
+                  <p>New method TermState() in class TermState.</p>
+                </li>
+                <li>
+                  <p>New file lucene/core/src/java/org/apache/lucene/util/RollingBuffer.java.</p>
+                </li>
+                <li>
+                  <p>Modified methods merge(MergeState), copyVectorsWithDeletions(MergeState,final,final,int,int), and copyVectorsNoDeletions(MergeState,final,final,int,int) in Lucene40TermVectorsWriter.</p>
+                </li>
+                <li>
+                  <p>Modified methods copyFieldsWithDeletions(MergeState,final,final,int), and copyFieldsNoDeletions(MergeState,final,final,int) in Lucene40StoredFieldsWriter.</p>
+                </li>
+                <li>
+                  <p>New method TermsConsumer() in TermsConsumer. Modified method merge(MergeState,TermsEnum).</p>
+                </li>
+                <li>
+                  <p>New methods TermVectorsWriter(), and close() in TermVectorsWriter.</p>
+                </li>
+                <li>
+                  <p>New methods StoredFieldsWriter(), and close() in StoredFieldsWriter. Modified method addDocument(Iterable&#60;? extends StorableField>,FieldInfos).</p>
+                </li>
+                <li>
+                  <p>New method PostingsWriterBase() in PostingsWriterBase. Modified method close().</p>
+                </li>
+                <li>
+                  <p>New methods PerDocProducer(), and close() in PerDocProducer.</p>
+                </li>
+                <li>
+                  <p>New methods PerDocConsumer(), and close() in PerDocConsumer.</p>
+                </li>
+                <li>
+                  <p>New method MultiLevelSkipListReader(IndexInput,int,int,int) in MultiLevelSkipListReader. Modified methods MultiLevelSkipListReader(IndexInput,int,int), seekChild(int), close(), and loadSkipLevels().</p>
+                </li>
+                <li>
+                  <p>New method MappingMultiDocsAndPositionsEnum() in MappingMultiDocsAndPositionsEnum. Modified method getPayload().</p>
+                </li>
+                <li>
+                  <p>New method FieldsProducer() in FieldsProducer. Modified method close().</p>
+                </li>
+                <li>
+                  <p>New method DocValuesConsumer() in DocValuesConsumer. Modified method merge(DocValues,int,int,Bits).</p>
+                </li>
+                <li>
+                  <p>New methods token(String,int,int), token(String,int,int,int,int), testSingleToken(), testMultipleHoles(), testSynOverMultipleHoles(), join(String), join(Automaton), s2a(String), testTwoTokens(), testHole(), testOverlappedTokensSausage(),
+                    testOverlappedTokensLattice(), testSynOverHole(), testSynOverHole2(), testOverlappedTokensLattice2(), testToDot(), testStartsWithHole(), and testSynHangingOverEnd() in TestGraphTokenizers.</p>
+                </li>
+                <li>
+                  <p>Modified methods resetTransitions(), and addEpsilon(State) in State.</p>
+                </li>
+                <li>
+                  <p>New methods getFiniteStrings(Automaton,int), and getFiniteStrings(State,HashSet&lt;State&gt;,HashSet&lt;IntsRef&gt;,IntsRef,int) in SpecialOperations.</p>
+                </li>
+                <li>
+                  <p>Modified method resetSkip() in class MultiLevelSkipListWriter.</p>
+                </li>
+                <li>
+                  <p>Modified method visitDocument(int,StoredFieldVisitor) in class Lucene40StoredFieldsReader.</p>
+                </li>
+                <li>
+                  <p>Modified method close() in class Lucene40TermVectorsReader.</p>
+                </li>
+                <li>
+                  <p>Modified method valid(Long) in class PositiveIntOutputs.</p>
+                </li>
+                <li>
+                  <p>Removed classes UpToTwoPositiveIntOutputs, UpToTwoPositiveIntOutputs, and UpToTwoPositiveIntOutputs.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/java/org/apache/lucene/index/UpgradeIndexMergePolicy.java, lucene/core/src/java/org/apache/lucene/index/TwoPhaseCommitTool.java, lucene/core/src/java/org/apache/lucene/index/TermContext.java, lucene/core/src/java/org/apache/lucene/index/SortedBytesMergeUtils.java,
+                    lucene/core/src/java/org/apache/lucene/index/SnapshotDeletionPolicy.java, lucene/core/src/java/org/apache/lucene/index/SlowCompositeReaderWrapper.java, lucene/core/src/java/org/apache/lucene/index/SegmentWriteState.java, lucene/core/src/java/org/apache/lucene/index/SegmentReader.java,
+                    lucene/core/src/java/org/apache/lucene/index/SegmentReadState.java, lucene/core/src/java/org/apache/lucene/index/SegmentInfoPerCommit.java, lucene/core/src/java/org/apache/lucene/index/SegmentInfo.java, lucene/core/src/java/org/apache/lucene/index/ReaderSlice.java,
+                    lucene/core/src/java/org/apache/lucene/index/PerDocWriteState.java, lucene/core/src/java/org/apache/lucene/index/MultiTermsEnum.java, lucene/core/src/java/org/apache/lucene/index/MultiTerms.java, lucene/core/src/java/org/apache/lucene/index/MultiDocsEnum.java,
+                    lucene/core/src/java/org/apache/lucene/index/MultiDocsAndPositionsEnum.java, lucene/core/src/java/org/apache/lucene/index/MergePolicy.java, lucene/core/src/java/org/apache/lucene/index/LogMergePolicy.java, lucene/core/src/java/org/apache/lucene/index/LogDocMergePolicy.java,
+                    lucene/core/src/java/org/apache/lucene/index/LogByteSizeMergePolicy.java, lucene/core/src/java/org/apache/lucene/index/LiveIndexWriterConfig.java, lucene/core/src/java/org/apache/lucene/index/IndexWriter.java, lucene/core/src/java/org/apache/lucene/index/IndexUpgrader.java,
+                    lucene/core/src/java/org/apache/lucene/index/IndexReader.java, lucene/core/src/java/org/apache/lucene/index/IndexNotFoundException.java, lucene/core/src/java/org/apache/lucene/index/IndexFormatTooOldException.java, lucene/core/src/java/org/apache/lucene/index/IndexFormatTooNewException.java,
+                    lucene/core/src/java/org/apache/lucene/index/FieldInvertState.java, lucene/core/src/java/org/apache/lucene/index/FieldInfo.java, lucene/core/src/java/org/apache/lucene/index/DocTermOrds.java, lucene/core/src/java/org/apache/lucene/index/DirectoryReader.java,
+                    lucene/core/src/java/org/apache/lucene/index/CorruptIndexException.java, lucene/core/src/java/org/apache/lucene/index/CompositeReader.java, lucene/core/src/java/org/apache/lucene/index/CheckIndex.java, lucene/core/src/java/org/apache/lucene/index/AtomicReader.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/perfield/PerFieldPostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/values/Ints.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/values/DocValuesWriterBase.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40SkipListWriter.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40SkipListReader.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40PostingsWriter.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40PostingsReader.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40PostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40PostingsBaseFormat.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40DocValuesProducer.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40DocValuesConsumer.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40Codec.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/TermStats.java, lucene/core/src/java/org/apache/lucene/codecs/PostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/PostingsBaseFormat.java, lucene/core/src/java/org/apache/lucene/codecs/FilterCodec.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/DocValuesArraySource.java, lucene/core/src/java/org/apache/lucene/codecs/BlockTreeTermsWriter.java, lucene/core/src/java/org/apache/lucene/codecs/BlockTreeTermsReader.java, lucene/core/src/test/org/apache/lucene/util/fst/TestFSTs.java,
+                    lucene/core/src/java/org/apache/lucene/util/fst/Builder.java, lucene/core/src/java/org/apache/lucene/index/DocValues.java, lucene/core/src/test/org/apache/lucene/index/BinaryTokenStream.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4410" target="_blank">LUCENE-4410</a>: Make FilteredQuery more flexible with regards to how filters are applied <a href="#" onclick="show_hide('a384'); return false">[more info]</a>
+            </li>
+            <div id="a384">
+              <ul type="circle">
+                <li>
+                  <p>New methods randomFilterStrategy(Random,final), testQueryFirstFilterStrategy(), and testLeapFrogStrategy() in TestFilteredQuery. Modified methods tFilteredQuery(final), tRangeQuery(final), tBooleanMUST(final), tBooleanSHOULD(final),
+                    tBoolean2(final), tChainedFilters(final), testQueryFirstFilterStrategy(), and testLeapFrogStrategy().</p>
+                </li>
+                <li>
+                  <p>New method FilteredQuery(Query,Filter,FilterStrategy) in FilteredQuery. Removed method useRandomAccess(Bits,int). Modified methods FilteredQuery(Query,Filter), createWeight(final), equals(Object), and hashCode().</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4404" target="_blank">LUCENE-4404</a>: Add ListOfOutputs FST Outputs, replacing UpToTwoPositiveIntOutputs <a href="#" onclick="show_hide('a388'); return false">[more info]</a>
+            </li>
+            <div id="a388">
+              <ul type="circle">
+                <li>
+                  <p>Removed classes UpToTwoPositiveIntOutputs, UpToTwoPositiveIntOutputs, and UpToTwoPositiveIntOutputs.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/test/org/apache/lucene/util/fst/TestFSTs.java, lucene/core/src/java/org/apache/lucene/util/fst/Builder.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4365" target="_blank">LUCENE-4365</a>: The Maven build can&apos t directly handle complex inter-module dependencies involving the test-framework modules
+              <a href="#" onclick="show_hide('a391'); return false"></a>
+            </li>
+            <div id="a391">
+              <ul type="circle">
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4327" target="_blank">LUCENE-4327</a>: Use BooleanScorer1 for filter-down-low queries <a href="#" onclick="show_hide('a392'); return false">[more info]</a>
+            </li>
+            <div id="a392">
+              <ul type="circle">
+                <li>
+                  <p>Modified method createWeight(final) in class FilteredQuery.</p>
+                </li>
+                <li>
+                  <p>Modified method score() in classes ReqOptSumScorer, ConjunctionTermScorer, ConjunctionScorer.</p>
+                </li>
+                <li>
+                  <p>Modified file lucene/core/src/java/org/apache/lucene/search/BooleanScorer.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4323" target="_blank">LUCENE-4323</a>: Add max cfs segment size to LogMergePolicy and TieredMergePolicy <a href="#" onclick="show_hide('a396'); return false">[more info]</a>
+            </li>
+            <div id="a396">
+              <ul type="circle">
+                <li>
+                  <p>New method testSetters() in class TestTieredMergePolicy.</p>
+                </li>
+                <li>
+                  <p>New methods testSetters(), and assertSetters(LogMergePolicy) in TestIndexWriterMergePolicy.</p>
+                </li>
+                <li>
+                  <p>New methods getMaxCFSSegmentSizeMB(), and setMaxCFSSegmentSizeMB(double) in TieredMergePolicy. Modified methods setMaxMergedSegmentMB(double), setFloorSegmentMB(double), useCompoundFile(SegmentInfos,SegmentInfoPerCommit), isMerged(SegmentInfoPerCommit),
+                    and toString().</p>
+                </li>
+                <li>
+                  <p>New methods getMaxCFSSegmentSizeMB(), and setMaxCFSSegmentSizeMB(double) in LogMergePolicy. Modified methods useCompoundFile(SegmentInfos,SegmentInfoPerCommit), and toString().</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-4314" target="_blank">LUCENE-4314</a>: The specification of DocIdSetIterator is needlessly ambiguous. <a href="#" onclick="show_hide('a401'); return false">[more info]</a>
+            </li>
+            <div id="a401">
+              <ul type="circle">
+                <li>
+                  <p>New class BulkOperationPacked9 extending BulkOperationPacked. It allows decoding bulk operation packed 9.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked8 extending BulkOperationPacked. It allows decoding bulk operation packed 8.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked7 extending BulkOperationPacked. It allows decoding bulk operation packed 7.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked6 extending BulkOperationPacked. It allows decoding bulk operation packed 6.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked5 extending BulkOperationPacked. It allows decoding bulk operation packed 5.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked4 extending BulkOperationPacked. It allows decoding bulk operation packed 4.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked3 extending BulkOperationPacked. It allows decoding bulk operation packed 3.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked24 extending BulkOperationPacked. It allows decoding bulk operation packed 24.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked23 extending BulkOperationPacked. It allows decoding bulk operation packed 23.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked22 extending BulkOperationPacked. It allows decoding bulk operation packed 22.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked21 extending BulkOperationPacked. It allows decoding bulk operation packed 21.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked20 extending BulkOperationPacked. It allows decoding bulk operation packed 20.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked2 extending BulkOperationPacked. It allows decoding bulk operation packed 2.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked19 extending BulkOperationPacked. It allows decoding bulk operation packed 19.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked18 extending BulkOperationPacked. It allows decoding bulk operation packed 18.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked17 extending BulkOperationPacked. It allows decoding bulk operation packed 17.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked16 extending BulkOperationPacked. It allows decoding bulk operation packed 16.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked15 extending BulkOperationPacked. It allows decoding bulk operation packed 15.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked14 extending BulkOperationPacked. It allows decoding bulk operation packed 14.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked13 extending BulkOperationPacked. It allows decoding bulk operation packed 13.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked12 extending BulkOperationPacked. It allows decoding bulk operation packed 12.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked11 extending BulkOperationPacked. It allows decoding bulk operation packed 11.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked10 extending BulkOperationPacked. It allows decoding bulk operation packed 10.</p>
+                </li>
+                <li>
+                  <p>New class BulkOperationPacked1 extending BulkOperationPacked. It allows decoding bulk operation packed 1.</p>
+                </li>
+                <li>
+                  <p>New methods MultiLevelSkipListWriter(int,int,int,int), and writeSkip(IndexOutput) in MultiLevelSkipListWriter. Modified methods MultiLevelSkipListWriter(int,int,int), resetSkip(), and bufferSkip(int).</p>
+                </li>
+                <li>
+                  <p>Modified methods searchIndex(Directory,String), changeIndexWithAdds(Random,Directory,String), changeIndexNoAdds(Random,Directory), and testNumericFields() in TestBackwardsCompatibility.</p>
+                </li>
+                <li>
+                  <p>Modified methods testSplitLongRange(), and testSplitIntRange() in TestNumericUtils.</p>
+                </li>
+                <li>
+                  <p>Modified method finishTerm(TermStats) in class BlockPostingsWriter.</p>
+                </li>
+                <li>
+                  <p>Modified method of(PackedInts.Format,int) in class BulkOperation.</p>
+                </li>
+                <li>
+                  <p>Modified method testRandom() in class TestPostingsOffsets.</p>
+                </li>
+                <li>
+                  <p>Classes BlockPostingsWriter, BlockPostingsReader are not public anymore.</p>
+                </li>
+                <li>
+                  <p>Files lucene/core/src/test/org/apache/lucene/index/TestBackwardsCompatibility.java, lucene/core/src/test/org/apache/lucene/index/TestPostingsOffsets.java, lucene/test-framework/src/java/org/apache/lucene/codecs/mockrandom/MockRandomPostingsFormat.java,
+                    lucene/core/src/java/org/apache/lucene/util/packed/BulkOperation.java were refactored.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/java/org/apache/lucene/codecs/sep/IntStreamFactory.java, lucene/core/src/java/org/apache/lucene/codecs/sep/IntIndexOutput.java, lucene/core/src/java/org/apache/lucene/codecs/sep/IntIndexInput.java, lucene/core/src/java/org/apache/lucene/index/MultiDocsEnum.java,
+                    lucene/core/src/java/org/apache/lucene/index/MultiDocsAndPositionsEnum.java, lucene/core/src/java/org/apache/lucene/index/MergePolicy.java, lucene/core/src/java/org/apache/lucene/util/fst/Util.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40PostingsFormat.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/block/BlockPostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/block/ForUtil.java, lucene/core/src/java/org/apache/lucene/search/DocIdSetIterator.java, lucene/core/src/java/org/apache/lucene/codecs/intblock/VariableIntBlockIndexInput.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/intblock/FixedIntBlockIndexInput.java, lucene/core/src/java/org/apache/lucene/util/packed/Packed64SingleBlock.java, lucene/core/src/java/org/apache/lucene/search/NumericRangeQuery.java,
+                    lucene/core/src/java/org/apache/lucene/search/DocIdSet.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-3985" target="_blank">LUCENE-3985</a>: Refactor support for thread leaks <a href="#" onclick="show_hide('a435'); return false">[more info]</a>
+            </li>
+            <div id="a435">
+              <ul type="circle">
+                <li>
+                  <p>New class TestWorstCaseTestBehavior extending LuceneTestCase. It allows handling test uncaught exception, handling test zombie, handling test progressive output, handling test laaaaaarge output, handling test timeout, and handling test
+                    thread leak.</p>
+                </li>
+                <li>
+                  <p>Modified methods testEmptyFieldSort(), and testParallelMultiSort() in TestSort.</p>
+                </li>
+                <li>
+                  <p>Removed methods testReaderChaining(), and tearDown() from TestReaderClosed.</p>
+                </li>
+                <li>
+                  <p>Modified method testConcurrentHashMap() in class TestWeakIdentityMap.</p>
+                </li>
+                <li>
+                  <p>Modified file lucene/core/src/test/org/apache/lucene/index/TestDocumentsWriterStallControl.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-3892" target="_blank">LUCENE-3892</a>: Add a useful intblock postings format (eg, FOR, PFOR, PFORDelta, Simple9/16/64, etc.) <a href="#" onclick="show_hide('a442'); return false">[more info]</a>
+            </li>
+            <div id="a442">
+              <ul type="circle">
+                <li>
+                  <p>New method getTopReaderContext() in classes IndexReader, AtomicReader.</p>
+                </li>
+                <li>
+                  <p>New method checkVersion(int) in class PackedInts.</p>
+                </li>
+                <li>
+                  <p>New file lucene/core/src/java/org/apache/lucene/index/MergedIterator.java.</p>
+                </li>
+                <li>
+                  <p>Modified methods BlockSkipWriter(int,int,int,IndexOutput,IndexOutput,IndexOutput), and writeSkipData(int,IndexOutput) in BlockSkipWriter.</p>
+                </li>
+                <li>
+                  <p>Modified methods BlockSkipReader(IndexInput,int,int,boolean,boolean,boolean), seekChild(int), setLastSkipData(int), and readSkipData(int,IndexInput) in BlockSkipReader.</p>
+                </li>
+                <li>
+                  <p>Modified methods PackedWriter(PackedInts.Format,DataOutput,int,int,int), add(long), and flush() in PackedWriter.</p>
+                </li>
+                <li>
+                  <p>Modified methods PackedReaderIterator(PackedInts.Format,int,int,DataInput,int), and next(int) in PackedReaderIterator.</p>
+                </li>
+                <li>
+                  <p>Modified methods get(int,long,int,int), and set(int,long,int,int) in Packed64SingleBlock.</p>
+                </li>
+                <li>
+                  <p>Modified methods get(int,long,int,int), and set(int,long,int,int) in Packed64.</p>
+                </li>
+                <li>
+                  <p>New methods testFailIfIndexWriterNotClosed(), and testFailIfIndexWriterNotClosedChangeLockFactory() in TestFailIfDirectoryNotClosed.</p>
+                </li>
+                <li>
+                  <p>Modified methods testStackedTokens(), and testRandom() in TestPostingsOffsets.</p>
+                </li>
+                <li>
+                  <p>Modified methods testSpanTermQuery(), testSpanFirst(), and testSpanNot() in TestPayloadSpans.</p>
+                </li>
+                <li>
+                  <p>Modified methods testCachingWorks(), testNullDocIdSet(), testNullDocIdSetIterator(), and assertDocIdSetCacheable(IndexReader,Filter,boolean) in TestCachingWrapperFilter.</p>
+                </li>
+                <li>
+                  <p>Modified methods assertValues(TestType,Directory,long,Type), and testMergeIncompatibleTypes() in TestTypePromotion.</p>
+                </li>
+                <li>
+                  <p>Modified methods testPositionsSimple(), testRandomPositions(), testRandomDocs(), and testLargeNumberOfPositions() in TestDocsAndPositions.</p>
+                </li>
+                <li>
+                  <p>Modified methods testRandom(), and testRandomWithPrefix() in TestDocTermOrds.</p>
+                </li>
+                <li>
+                  <p>New methods performTestsWithExceptionInReopen(TestReopen), assertReaderClosed(IndexReader,boolean,boolean), and assertRefCountEquals(int,DirectoryReader) in TestDirectoryReaderReopen. Modified methods performDefaultTests(TestReopen),
+                    testThreadSafety(), createIndex(Random,Directory,boolean), and assertReaderClosed(IndexReader,boolean).</p>
+                </li>
+                <li>
+                  <p>Modified methods assertIndexEquals(DirectoryReader,DirectoryReader), testFieldCacheReuseAfterReopen(), testUniqueTermCount(), and testNoTermsIndex() in TestDirectoryReader.</p>
+                </li>
+                <li>
+                  <p>Modified methods testKeepAllDeletionPolicy(), and testOpenPriorSnapshot() in TestDeletionPolicy.</p>
+                </li>
+                <li>
+                  <p>Modified methods testReuseDocsEnumNoReuse(), testReuseDocsEnumSameBitsOrNull(), and testReuseDocsEnumDifferentReader() in TestReuseDocsEnum.</p>
+                </li>
+                <li>
+                  <p>New method SegmentMerger(SegmentInfo,InfoStream,Directory,int,MergeState.CheckAbort,PayloadProcessorProvider,FieldInfos.FieldNumbers,IOContext) in SegmentMerger. Modified methods SegmentMerger(SegmentInfo,InfoStream,Directory,int,MergeState.CheckAbort,FieldInfos.FieldNumbers,IOContext),
+                    add(IndexReader), and setDocMaps().</p>
+                </li>
+                <li>
+                  <p>Modified methods getFields(IndexReader), and getLiveDocs(IndexReader) in MultiFields.</p>
+                </li>
+                <li>
+                  <p>New methods setPayloadProcessorProvider(PayloadProcessorProvider), and getPayloadProcessorProvider() in IndexWriter. Modified methods tryDeleteDocument(IndexReader,int), addIndexes(IndexReader), and mergeMiddle(MergePolicy.OneMerge).</p>
+                </li>
+                <li>
+                  <p>New method getTopReaderContext() in CompositeReader. Modified method getSequentialSubReaders().</p>
+                </li>
+                <li>
+                  <p>Modified methods merge(MergeState), copyVectorsWithDeletions(MergeState,final,final,int,int), and copyVectorsNoDeletions(MergeState,final,final,int,int) in Lucene40TermVectorsWriter.</p>
+                </li>
+                <li>
+                  <p>Modified methods merge(MergeState), and addAllDocVectors(Fields,MergeState) in TermVectorsWriter.</p>
+                </li>
+                <li>
+                  <p>Modified methods searchIndex(Directory,String), changeIndexWithAdds(Random,Directory,String), changeIndexNoAdds(Random,Directory), and testNumericFields() in TestBackwardsCompatibility.</p>
+                </li>
+                <li>
+                  <p>Modified method runTest(Random,Directory) in class TestThreadedForceMerge.</p>
+                </li>
+                <li>
+                  <p>Modified method testMixupDocs() in class TestPayloads.</p>
+                </li>
+                <li>
+                  <p>Modified method parallel(Random,boolean) in class TestParallelCompositeReader.</p>
+                </li>
+                <li>
+                  <p>Modified method test() in classes TestPostingsFormat, TestTermVectorsReader.</p>
+                </li>
+                <li>
+                  <p>Modified method applyQueryDeletes(Iterable
+                    <QueryAndLimit>,ReadersAndLiveDocs,final) in class BufferedDeletesStream.</p>
+                </li>
+                <li>
+                  <p>Modified method testMerge() in class TestSegmentMerger.</p>
+                </li>
+                <li>
+                  <p>Modified method merge(Directory,SegmentInfoPerCommit,SegmentInfoPerCommit,String,boolean) in class TestDoc.</p>
+                </li>
+                <li>
+                  <p>Modified method testTermUTF16SortOrder() in class TestIndexWriterUnicode.</p>
+                </li>
+                <li>
+                  <p>Modified method printDocs(DirectoryReader) in class TestStressIndexing2.</p>
+                </li>
+                <li>
+                  <p>Modified method testInverseRange() in classes TestNumericRangeQuery64, TestNumericRangeQuery32.</p>
+                </li>
+                <li>
+                  <p>Modified method of(PackedInts.Format,int) in class BulkOperation.</p>
+                </li>
+                <li>
+                  <p>Modified method assertSame(IndexSearcher,NodeState.ShardIndexSearcher,Query,Sort,PreviousSearchState) in class TestShardSearching.</p>
+                </li>
+                <li>
+                  <p>Modified method getAllDescendantReaderKeys(Object) in class FieldCacheSanityChecker.</p>
+                </li>
+                <li>
+                  <p>Modified method testNoUnwantedTVFiles() in class TestIndexWriter.</p>
+                </li>
+                <li>
+                  <p>Modified method merge(MergeState,TermsEnum) in class TermsConsumer.</p>
+                </li>
+                <li>
+                  <p>Modified method testNumericField() in class TestFieldsReader.</p>
+                </li>
+                <li>
+                  <p>Modified method testIllegalCustomEncoder() in class TestCustomNorms.</p>
+                </li>
+                <li>
+                  <p>Modified method getDocIdSet(final,final) in class QueryWrapperFilter.</p>
+                </li>
+                <li>
+                  <p>Modified method IndexSearcher(IndexReader,ExecutorService) in class IndexSearcher.</p>
+                </li>
+                <li>
+                  <p>Modified method getDocValues(IndexReader,final,final) in class MultiDocValues.</p>
+                </li>
+                <li>
+                  <p>Modified method testBackgroundForceMerge() in class TestIndexWriterForceMerge.</p>
+                </li>
+                <li>
+                  <p>Modified method testRAMDirectoryNoLocking() in class TestLockFactory.</p>
+                </li>
+                <li>
+                  <p>Modified method getPayload() in class MappingMultiDocsAndPositionsEnum.</p>
+                </li>
+                <li>
+                  <p>Modified method testCommitOnCloseForceMerge() in class TestIndexWriterCommit.</p>
+                </li>
+                <li>
+                  <p>Modified method testDocValuesSimple() in class TestDocValuesIndexing.</p>
+                </li>
+                <li>
+                  <p>Removed classes ForUtil, BlockPackedPostingsReader, BlockPackedSkipWriter, BlockPackedPostingsFormat, ForUtil, BlockPackedSkipWriter, BlockPackedSkipReader, BlockPackedSkipReader, BlockPackedPostingsWriter, BlockPackedPostingsWriter,
+                    BlockPackedPostingsReader, BlockPackedPostingsFormat, PackedIntsDecompress, and PackedIntsDecompress.</p>
+                </li>
+                <li>
+                  <p>Classes ForUtil, BlockPostingsWriter, BlockPostingsReader are not public anymore.</p>
+                </li>
+                <li>
+                  <p>File TestForUtil.java moved from lucene/core/src/test/org/apache/lucene/codecs/blockpacked to lucene/core/src/test/org/apache/lucene/codecs/block.</p>
+                </li>
+                <li>
+                  <p>File MergedIterator.java moved from lucene/core/src/java/org/apache/lucene/index to lucene/core/src/java/org/apache/lucene/util.</p>
+                </li>
+                <li>
+                  <p>Files lucene/core/src/test/org/apache/lucene/index/TestBackwardsCompatibility.java, lucene/core/src/test/org/apache/lucene/index/TestPostingsOffsets.java, lucene/test-framework/src/java/org/apache/lucene/codecs/mockrandom/MockRandomPostingsFormat.java
+                    were refactored.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-2807" target="_blank">LUCENE-2807</a>: Improve test debuggability through ant <a href="#" onclick="show_hide('a501'); return false">[more info]</a>
+            </li>
+            <div id="a501">
+              <ul type="circle">
+                <li>
+                  <p>New method testBooleanScorerMax() in class TestBooleanOr.</p>
+                </li>
+                <li>
+                  <p>Modified methods doOpenNoWriter(IndexCommit), doOpenIfChanged(SegmentInfos,IndexWriter), and doClose() in StandardDirectoryReader.</p>
+                </li>
+                <li>
+                  <p>New method getContext() in CompositeReader. Modified method getSequentialSubReaders().</p>
+                </li>
+                <li>
+                  <p>Modified methods score(Collector,int,int), freq(), and getChildren() in BooleanScorer.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/java/org/apache/lucene/index/CompositeReader.java, lucene/core/src/java/org/apache/lucene/search/BooleanQuery.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-2301" target="_blank">LUCENE-2301</a>: search for &amp fix all &quot; TODO 4.0&quot; comments before releasing 4.0 <a href="#" onclick="show_hide('a507'); return false">[more info]</a>
+            </li>
+            <div id="a507">
+              <ul type="circle">
+                <li>
+                  <p>New method testBooleanScorerMax() in class TestBooleanOr.</p>
+                </li>
+                <li>
+                  <p>Modified methods doOpenNoWriter(IndexCommit), doOpenIfChanged(SegmentInfos,IndexWriter), and doClose() in StandardDirectoryReader.</p>
+                </li>
+                <li>
+                  <p>New method getContext() in CompositeReader. Modified method getSequentialSubReaders().</p>
+                </li>
+                <li>
+                  <p>Modified methods score(Collector,int,int), freq(), and getChildren() in BooleanScorer.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/java/org/apache/lucene/index/CompositeReader.java, lucene/core/src/java/org/apache/lucene/search/BooleanQuery.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-2163" target="_blank">LUCENE-2163</a>: Remove synchronized from DirReader.reopen/clone <a href="#" onclick="show_hide('a513'); return false">[more info]</a>
+            </li>
+            <div id="a513">
+              <ul type="circle">
+                <li>
+                  <p>Modified methods doOpenNoWriter(IndexCommit), doOpenIfChanged(SegmentInfos,IndexWriter), and doClose() in StandardDirectoryReader.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-2093" target="_blank">LUCENE-2093</a>: Use query-private scope instead of shared Term-&gt TermInfo cache <a href="#" onclick="show_hide('a515'); return false">[more info]</a>
+            </li>
+            <div id="a515">
+              <ul type="circle">
+                <li>
+                  <p>New method testBooleanScorerMax() in class TestBooleanOr.</p>
+                </li>
+                <li>
+                  <p>Modified methods doOpenNoWriter(IndexCommit), doOpenIfChanged(SegmentInfos,IndexWriter), and doClose() in StandardDirectoryReader.</p>
+                </li>
+                <li>
+                  <p>New method getContext() in CompositeReader. Modified method getSequentialSubReaders().</p>
+                </li>
+                <li>
+                  <p>Modified methods score(Collector,int,int), freq(), and getChildren() in BooleanScorer.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/java/org/apache/lucene/index/CompositeReader.java, lucene/core/src/java/org/apache/lucene/search/BooleanQuery.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-1888" target="_blank">LUCENE-1888</a>: Provide Option to Store Payloads on the Term Vector <a href="#" onclick="show_hide('a521'); return false">[more info]</a>
+            </li>
+            <div id="a521">
+              <ul type="circle">
+                <li>
+                  <p>New class TestPayloadsOnVectors extending LuceneTestCase. This boundary class communicates mainly with Directory, IndexWriterConfig, and MockAnalyzer. It allows handling test payloads without positions, handling test mixup multi valued,
+                    and handling test mixup docs.</p>
+                </li>
+                <li>
+                  <p>New method hasPayloads() in class Terms.</p>
+                </li>
+                <li>
+                  <p>New method storeTermVectorPayloads() in class IndexableFieldType.</p>
+                </li>
+                <li>
+                  <p>New method writeProx(TermVectorsPostingsArray,int) in TermVectorsConsumerPerField. Modified methods start(IndexableField,int), finishDocument(), start(IndexableField), newTerm(final), and addTerm(final).</p>
+                </li>
+                <li>
+                  <p>New method hasPayloads() in MultiTerms. Modified method MultiTerms(Terms,ReaderSlice).</p>
+                </li>
+                <li>
+                  <p>Modified methods checkFields(Fields,Bits,int,FieldInfos,boolean,boolean), and testTermVectors(FieldInfos,SegmentInfoPerCommit,SegmentReader,NumberFormat) in CheckIndex.</p>
+                </li>
+                <li>
+                  <p>New methods storeTermVectorPayloads(), and setStoreTermVectorPayloads(boolean) in FieldType. Modified methods FieldType(FieldType), and toString().</p>
+                </li>
+                <li>
+                  <p>New methods startField(FieldInfo,int,boolean,boolean,boolean), and addPosition(int,int,int,BytesRef) in SimpleTextTermVectorsWriter. Removed methods startField(FieldInfo,int,boolean,boolean), and addPosition(int,int,int).</p>
+                </li>
+                <li>
+                  <p>New methods startField(FieldInfo,int,boolean,boolean,boolean), addPosition(int,int,int,BytesRef), and writePosition(int,BytesRef) in Lucene40TermVectorsWriter. Removed method addPosition(int,int,int). Modified methods startField(FieldInfo,int,boolean,boolean),
+                    startTerm(BytesRef,int), addProx(int,DataInput,DataInput), merge(MergeState), copyVectorsWithDeletions(MergeState,final,final,int,int), and copyVectorsNoDeletions(MergeState,final,final,int,int).</p>
+                </li>
+                <li>
+                  <p>New methods startField(FieldInfo,int,boolean,boolean,boolean), and addPosition(int,int,int,BytesRef) in TermVectorsWriter. Removed method addAllDocVectors(Fields,FieldInfos). Modified methods startField(FieldInfo,int,boolean,boolean),
+                    addPosition(int,int,int), addProx(int,DataInput,DataInput), and merge(MergeState).</p>
+                </li>
+                <li>
+                  <p>Modified methods getPayload(), and hasPayload() in MappingMultiDocsAndPositionsEnum.</p>
+                </li>
+                <li>
+                  <p>Modified method get(int) in class SimpleTextTermVectorsReader.</p>
+                </li>
+                <li>
+                  <p>Modified method assertTerms(Terms,Terms,boolean) in class TestDuelingCodecs.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/test/org/apache/lucene/search/FieldCacheRewriteMethod.java, lucene/core/src/test/org/apache/lucene/index/TestIndexableField.java, lucene/core/src/java/org/apache/lucene/index/FilterAtomicReader.java, lucene/core/src/java/org/apache/lucene/codecs/simpletext/SimpleTextFieldsReader.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/memory/MemoryPostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/memory/DirectPostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40TermVectorsReader.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/lucene40/Lucene40TermVectorsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/bloom/BloomFilteringPostingsFormat.java, lucene/core/src/java/org/apache/lucene/codecs/BlockTreeTermsReader.java,
+                    lucene/core/src/java/org/apache/lucene/codecs/BlockTermsReader.java.</p>
+                </li>
+              </ul>
+            </div>
+            <li><a href="https://issues.apache.org/jira/browse/LUCENE-3312" target="_blank">LUCENE-3312</a>: Break out StorableField from IndexableField <a href="#" onclick="show_hide('a536'); return false">[more info]</a>
+            </li>
+            <div id="a536">
+              <ul type="circle">
+                <li>
+                  <p>Modified methods verifyStringSort(Sort), testEmptyFieldSort(), testParallelMultiSort(), and assertMatches(String,IndexSearcher,Query,Sort,String) in TestSort.</p>
+                </li>
+                <li>
+                  <p>Modified methods testRange(int), testLeftOpenRange(int), and testRightOpenRange(int) in TestNumericRangeQuery64.</p>
+                </li>
+                <li>
+                  <p>Modified methods testRange(int), testLeftOpenRange(int), and testRightOpenRange(int) in TestNumericRangeQuery32.</p>
+                </li>
+                <li>
+                  <p>Removed methods assertSubsetOfSameScores(Query,TopDocs,TopDocs), testRewriteCoord1(), and testRewriteNegate() from TestBooleanMinShouldMatch. Modified methods testRandomQueries(), and printHits(String,ScoreDoc,IndexSearcher).</p>
+                </li>
+                <li>
+                  <p>Modified methods indexSerial(Random,Map
+                    <String,Document>,Directory), printDocs(DirectoryReader), verifyEquals(DirectoryReader,DirectoryReader,String), and verifyEquals(Fields,Fields) in TestStressIndexing2.</p>
+                </li>
+                <li>
+                  <p>Modified methods testDocument(), and testTerms() in TestSegmentReader.</p>
+                </li>
+                <li>
+                  <p>Modified methods testUpdateDocument(), and testAddIndexes() in TestIndexWriterReader.</p>
+                </li>
+                <li>
+                  <p>Modified methods testBinaryFieldOffsetLength(), testIndexStoreCombos(), and testStoredFieldsOrder() in TestIndexWriter.</p>
+                </li>
+                <li>
+                  <p>Modified methods beforeClass(), test(), and testNumericField() in TestFieldsReader.</p>
+                </li>
+                <li>
+                  <p>Modified methods assertFields(Fields,Fields,boolean), assertTerms(Terms,Terms,boolean), assertDocsAndPositionsEnum(DocsAndPositionsEnum,DocsAndPositionsEnum), assertPositionsSkipping(int,DocsAndPositionsEnum,DocsAndPositionsEnum), assertNorms(IndexReader,IndexReader),
+                    and assertStoredFields(IndexReader,IndexReader) in TestDuelingCodecs.</p>
+                </li>
+                <li>
+                  <p>Modified methods testAddDocument(), and testTokenReuse() in TestDocumentWriter.</p>
+                </li>
+                <li>
+                  <p>Modified methods testDocument(), testBinaryFields(), assertIndexEquals(DirectoryReader,DirectoryReader), and testLoadCertainFields() in TestDirectoryReader.</p>
+                </li>
+                <li>
+                  <p>Modified methods searchIndex(Directory,String), changeIndexWithAdds(Random,Directory,String), changeIndexNoAdds(Random,Directory), and testNumericFields() in TestBackwardsCompatibility.</p>
+                </li>
+                <li>
+                  <p>New methods testClearDocument(), testGetFieldsImmutable(), and doAssert(StoredDocument) in TestDocument. Modified methods testBinaryField(), testGetValuesForIndexedDocument(), doAssert(Document,boolean), and testFieldSetValue().</p>
+                </li>
+                <li>
+                  <p>Modified methods testBinaryFieldInIndex(), and testCompressionTools() in TestBinaryDocument.</p>
+                </li>
+                <li>
+                  <p>Modified methods doc(int), and document(int,Set&lt;String&gt;) in IndexSearcher.</p>
+                </li>
+                <li>
+                  <p>Modified methods readSnapshotsInfo(Directory), and persistSnapshotInfos(String,String) in PersistentSnapshotDeletionPolicy.</p>
+                </li>
+                <li>
+                  <p>Modified methods document(int), and document(int,Set&lt;String&gt;) in IndexReader.</p>
+                </li>
+                <li>
+                  <p>Modified methods checkFields(Fields,Bits,int,FieldInfos,boolean,boolean), testStoredFields(SegmentInfoPerCommit,SegmentReader,NumberFormat), and testTermVectors(FieldInfos,SegmentInfoPerCommit,SegmentReader,NumberFormat) in CheckIndex.</p>
+                </li>
+                <li>
+                  <p>Modified methods stringField(FieldInfo,String), and getDocument() in DocumentStoredFieldVisitor.</p>
+                </li>
+                <li>
+                  <p>New methods Document(StoredDocument), indexableFields(), storableFields(), storedFieldsIterator(), indexedFieldsIterator(), and clear() in Document. Removed method iterator(). Modified methods removeField(String), removeFields(String),
+                    getBinaryValues(String), getBinaryValue(String), getField(String), getFields(String), getFields(), getValues(String), get(String), indexableFields(), and storableFields().</p>
+                </li>
+                <li>
+                  <p>Modified methods copyFieldsWithDeletions(MergeState,final,final,int), and copyFieldsNoDeletions(MergeState,final,final,int) in Lucene40StoredFieldsWriter.</p>
+                </li>
+                <li>
+                  <p>Removed method addDocument(Iterable&lt;? extends IndexableField&gt;,FieldInfos) from StoredFieldsWriter. Modified method merge(MergeState).</p>
+                </li>
+                <li>
+                  <p>Removed method setPayloadProcessorProvider(PayloadProcessorProvider) from IndexWriter. Modified methods addDocument(Iterable&lt;? extends IndexableField&gt;), addDocument(Iterable&lt;? extends IndexableField&gt;,Analyzer), addDocuments(Iterable&lt;?
+                    extends Iterable&lt;? extends IndexableField&gt;&gt;), addDocuments(Iterable&lt;? extends Iterable&lt;? extends IndexableField&gt;&gt;,Analyzer), tryDeleteDocument(IndexReader,int), addIndexes(IndexReader), and mergeMiddle(MergePolicy.OneMerge).</p>
+                </li>
+                <li>
+                  <p>Modified method testDemo() in class TestDemo.</p>
+                </li>
+                <li>
+                  <p>Modified method assertHits(IndexSearcher,Query,final,final,final) in class TestSpansAdvanced.</p>
+                </li>
+                <li>
+                  <p>Modified method queryTest(Query) in classes TestParallelCompositeReader, TestParallelAtomicReader.</p>
+                </li>
+                <li>
+                  <p>Modified method testRAMDirectory() in class TestRAMDirectory.</p>
+                </li>
+                <li>
+                  <p>Modified method verifyIndex(Directory,int) in class TestIndexWriterMerging.</p>
+                </li>
+                <li>
+                  <p>Modified method test() in class TestStressNRT.</p>
+                </li>
+                <li>
+                  <p>Modified method testArbitraryFields() in class TestIndexableField.</p>
+                </li>
+                <li>
+                  <p>Modified method testInvalidUTF16() in class TestIndexWriterUnicode.</p>
+                </li>
+                <li>
+                  <p>Modified method testFieldNamesChanged() in class TestAddIndexes.</p>
+                </li>
+                <li>
+                  <p>Modified method testFloatNorms() in class TestCustomNorms.</p>
+                </li>
+                <li>
+                  <p>Modified method testMerge() in class TestSegmentMerger.</p>
+                </li>
+                <li>
+                  <p>Modified method doTestReopenWithCommit(Random,Directory,boolean) in class TestDirectoryReaderReopen.</p>
+                </li>
+                <li>
+                  <p>Modified method field() in class Norm.</p>
+                </li>
+                <li>
+                  <p>Modified method testRandomStoredFields() in class TestRandomStoredFields.</p>
+                </li>
+                <li>
+                  <p>Modified method testRollingUpdates() in class TestRollingUpdates.</p>
+                </li>
+                <li>
+                  <p>Modified method testReverseDateSort() in class TestDateSort.</p>
+                </li>
+                <li>
+                  <p>Classes StoredField, StoredField are not final anymore.</p>
+                </li>
+                <li>
+                  <p>Modified files lucene/core/src/test/org/apache/lucene/search/TestPhraseQuery.java, lucene/core/src/test/org/apache/lucene/search/TestDisjunctionMaxQuery.java, lucene/core/src/test/org/apache/lucene/index/TestNorms.java, lucene/core/src/test/org/apache/lucene/index/TestIndexWriterExceptions.java,
+                    lucene/core/src/test/org/apache/lucene/index/TestDocValuesTypeCompatibility.java, lucene/core/src/test/org/apache/lucene/codecs/appending/TestAppendingCodec.java, lucene/core/src/java/org/apache/lucene/index/StorableField.java, lucene/core/src/java/org/apache/lucene/index/IndexDocument.java,
+                    lucene/core/src/java/org/apache/lucene/util/FilterIterator.java, lucene/core/src/java/org/apache/lucene/index/StorableFieldType.java, lucene/core/src/java/org/apache/lucene/index/StoredDocument.java, lucene/core/src/java/org/apache/lucene/index/GeneralField.java.</p>
+                </li>
+              </ul>
+            </div>
+          </ol>
+        </div>
+
+        <h2><a href="#" onclick="show_hide('a719'); return false">Deleted Code Components</a> (3)</h2>
+        <div id="a719">
+          <ol>
+            <li>
+              <p> Removed classes SimpleTextTermVectorsReader, SimpleTextFieldsReader, SepPostingsReader, PulsingPostingsReader, MemoryPostingsFormat, DirectPostingsFormat, BloomFilteringPostingsFormat, MultiFieldsEnum, FieldsEnum, ForUtil, BulkVIntPostingsFormat,
+                FuzzySet, BlockPostingsFormat, SimpleTextPerDocProducer, VariableGapTermsIndexReader, FixedGapTermsIndexReader, BlockTermsReader, TermsIndexReaderBase, MurmurHash2, HashFunction, TestPulsingReuse, TestIntBlockCodec, TestForUtil, TestAppendingCodec,
+                SimpleTextUtil, SimpleTextTermVectorsWriter, SimpleTextTermVectorsFormat, SimpleTextStoredFieldsWriter, SimpleTextStoredFieldsReader, SimpleTextStoredFieldsFormat, SimpleTextSegmentInfoWriter, SimpleTextSegmentInfoReader, SimpleTextSegmentInfoFormat,
+                SimpleTextPostingsFormat, SimpleTextPerDocConsumer, SimpleTextNormsFormat, SimpleTextLiveDocsFormat, SimpleTextFieldsWriter, SimpleTextFieldInfosWriter, SimpleTextFieldInfosReader, SimpleTextFieldInfosFormat, SimpleTextDocValuesFormat,
+                SimpleTextDocValuesConsumer, SimpleTextCodec, SepSkipListWriter, SepSkipListReader, SepPostingsWriter, SepDocValuesProducer, SepDocValuesConsumer, IntStreamFactory, IntIndexOutput, IntIndexInput, PulsingPostingsWriter, PulsingPostingsFormat,
+                Pulsing40PostingsFormat, VariableIntBlockIndexOutput, VariableIntBlockIndexInput, FixedIntBlockIndexOutput, FixedIntBlockIndexInput, DefaultBloomFilterFactory, BloomFilterFactory, BlockSkipWriter, BlockSkipReader, BlockPostingsWriter,
+                BlockPostingsReader, AppendingTermsWriter, AppendingTermsReader, AppendingPostingsFormat, AppendingCodec, VariableGapTermsIndexWriter, TermsIndexWriterBase, FixedGapTermsIndexWriter, BlockTermsWriter, TestSortedVIntList, SortedVIntList,
+                TestRollingCharBuffer, and RollingCharBuffer.</p>
+            </li>
+            <li>
+              <p> Removed method hasPayload() from class DocsAndPositionsEnum.</p>
+            </li>
+            <li>
+              <p> File lucene/core/src/test/org/apache/lucene/codecs/pulsing/Test10KPulsings.java has been removed.</p>
+            </li>
+          </ol>
+        </div>
+
+        <h2><a href="#" onclick="show_hide('a731'); return false">Deprecated Code Components</a> (1)</h2>
+        <div id="a731">
+          <ol>
+            <li>
+              <p> Classes PayloadTermQuery, PerFieldPostingsFormat, IndexWriter, PayloadSpanUtil, SimpleFSDirectory, NIOFSDirectory, FSDirectory, FuzzyTermsEnum, TimeLimitingCollector, TestCrashCausesCorruptIndex, Directory, IOUtils, SegmentReader, FilteredTermsEnum,
+                DirectoryReader, Scorer, Token, NumericTokenStream, StraightBytesDocValuesField, SortedBytesDocValuesField, ShortDocValuesField, PackedLongDocValuesField, LongField, LongDocValuesField, IntField, IntDocValuesField, FloatField, FloatDocValuesField,
+                DoubleField, DoubleDocValuesField, DerefBytesDocValuesField, ByteDocValuesField, TestIndexWriter, TokenStream, PhraseQuery, TestCustomSearcherSort, Spans, PackedInts, MMapDirectory, IndexSearcher, NRTCachingDirectory, DocIdSetIterator,
+                BooleanQuery, FilteredQuery, TestSpansAdvanced, TestBooleanOr, TestParallelReaderEmptyIndex, TestIndexWriterReader, CompoundFileDirectory, NearSpansUnordered, NearSpansOrdered, Similarity, MultiPhraseQuery, Term, SegmentMerger, FieldInfos,
+                Lucene40StoredFieldsReader, SegmentInfoWriter, SegmentInfoReader, PerDocProducer, MultiLevelSkipListWriter, DocValuesConsumer have been deprecated.</p>
+            </li>
+          </ol>
+        </div>
+
+        <h2><a href="#" onclick="show_hide('a724'); return false">Changes to Visibility of Components</a> (2)</h2>
+        <div id="a724">
+          <ol>
+            <li>
+              <p> Classes StoredField, BulkOperationPackedSingleBlock are now final.</p>
+            </li>
+            <li>
+              <p> Class MultiDocValues is not public anymore.</p>
+            </li>
+          </ol>
+        </div>
+
+        <h2><a href="#" onclick="show_hide('a580'); return false">Added Code Components</a> (38)</h2>
+        <div id="a580">
+          <ol>
+            <li>
+              <p> New class TestMockDirectoryWrapper extending LuceneTestCase. This boundary class communicates mainly with IOException, MockDirectoryWrapper, and IndexWriter. It allows handling test fail if index writer not closed change lock factory, and
+                handling test fail if index writer not closed.</p>
+            </li>
+            <li>
+              <p> New class TestFilterIterator extending LuceneTestCase. This boundary class communicates mainly with NoSuchElementException. It allows handling test A 1, handling test B 1, testing test filter iterator, handling test unmodifiable, and handling
+                test empty.</p>
+            </li>
+            <li>
+              <p> New class TestPerFieldPostingsFormat extending LuceneTestCase. This boundary class communicates mainly with IndexWriter, Directory, and IndexWriterConfig. It allows handling test stress per field codec, asserting query, handling test change
+                codec and merge, handling test merge unused per field codec, handling test same codec different instance, and handling test same codec different params. This class declares the helper classes MockCodec, and MockCodec2.</p>
+            </li>
+            <li>
+              <p> New class TestBagOfPostings extending LuceneTestCase. This boundary class communicates mainly with _TestUtil, Collections, and Directory. It allows handling test.</p>
+            </li>
+            <li>
+              <p> New method BasicModelBE() in class BasicModelBE.</p>
+            </li>
+            <li>
+              <p> New method BasicModelIn() in class BasicModelIn.</p>
+            </li>
+            <li>
+              <p> New method FlagsAttributeImpl() in class FlagsAttributeImpl.</p>
+            </li>
+            <li>
+              <p> New method KeywordAttributeImpl() in class KeywordAttributeImpl.</p>
+            </li>
+            <li>
+              <p> New method TFIDFSimilarity() in class TFIDFSimilarity.</p>
+            </li>
+            <li>
+              <p> New method DistributionSPL() in class DistributionSPL.</p>
+            </li>
+            <li>
+              <p> New method BasicModelIF() in class BasicModelIF.</p>
+            </li>
+            <li>
+              <p> New method DistributionLL() in class DistributionLL.</p>
+            </li>
+            <li>
+              <p> New method IndexFileNames() in class IndexFileNames.</p>
+            </li>
+            <li>
+              <p> New method AfterEffectL() in class AfterEffectL.</p>
+            </li>
+            <li>
+              <p> New method LambdaDF() in class LambdaDF.</p>
+            </li>
+            <li>
+              <p> New method BasicModelP() in class BasicModelP.</p>
+            </li>
+            <li>
+              <p> New method Distribution() in class Distribution.</p>
+            </li>
+            <li>
+              <p> New method getContext() in class CompositeReader.</p>
+            </li>
+            <li>
+              <p> New method DefaultSimilarity() in class DefaultSimilarity.</p>
+            </li>
+            <li>
+              <p> New method TwoPhaseCommitTool() in class TwoPhaseCommitTool.</p>
+            </li>
+            <li>
+              <p> New method LambdaTTF() in class LambdaTTF.</p>
+            </li>
+            <li>
+              <p> New method OffsetAttributeImpl() in class OffsetAttributeImpl.</p>
+            </li>
+            <li>
+              <p> New method BasicModelG() in class BasicModelG.</p>
+            </li>
+            <li>
+              <p> New method BasicModel() in class BasicModel.</p>
+            </li>
+            <li>
+              <p> New method testMixing() in class TestOmitPositions.</p>
+            </li>
+            <li>
+              <p> New method CharTermAttributeImpl() in class CharTermAttributeImpl.</p>
+            </li>
+            <li>
+              <p> New method BasicModelIne() in class BasicModelIne.</p>
+            </li>
+            <li>
+              <p> New method AfterEffectB() in class AfterEffectB.</p>
+            </li>
+            <li>
+              <p> New method SmallFloat() in class SmallFloat.</p>
+            </li>
+            <li>
+              <p> New method AfterEffect() in class AfterEffect.</p>
+            </li>
+            <li>
+              <p> New method PerFieldSimilarityWrapper() in class PerFieldSimilarityWrapper.</p>
+            </li>
+            <li>
+              <p> New method Normalization() in class Normalization.</p>
+            </li>
+            <li>
+              <p> New method clone() in class IndexInput.</p>
+            </li>
+            <li>
+              <p> New method Lambda() in class Lambda.</p>
+            </li>
+            <li>
+              <p> New method PositionLengthAttributeImpl() in class PositionLengthAttributeImpl.</p>
+            </li>
+            <li>
+              <p> New method BasicModelD() in class BasicModelD.</p>
+            </li>
+            <li>
+              <p> New method PositionIncrementAttributeImpl() in class PositionIncrementAttributeImpl.</p>
+            </li>
+            <li>
+              <p> New files lucene/core/src/java/org/apache/lucene/util/UnmodifiableIterator.java, lucene/core/src/java/org/apache/lucene/util/MergedIterator.java, lucene/core/src/java/org/apache/lucene/util/FilterIterator.java.</p>
+            </li>
+          </ol>
+        </div>
+
+        <h2><a href="#" onclick="show_hide('a728'); return false">Refactored Source Code Files</a> (1)</h2>
+        <div id="a728">
+          <ol>
+            <li>
+              <p> Files lucene/core/src/java/org/apache/lucene/index/MultiFields.java, lucene/core/src/java/org/apache/lucene/index/SlowCompositeReaderWrapper.java, lucene/core/src/java/org/apache/lucene/index/IndexReader.java, lucene/core/src/java/org/apache/lucene/index/CompositeReader.java,
+                lucene/codecs/src/java/org/apache/lucene/codecs/block/BlockPostingsReader.java, solr/contrib/dataimporthandler/src/java/org/apache/solr/handler/dataimport/DIHCacheSupport.java, solr/contrib/dataimporthandler/src/test/org/apache/solr/handler/dataimport/TestEphemeralCache.java,
+                lucene/test-framework/src/java/org/apache/lucene/util/LuceneTestCase.java, solr/core/src/java/org/apache/solr/cloud/CloudDescriptor.java, solr/core/src/java/org/apache/solr/cloud/ElectionContext.java, solr/core/src/java/org/apache/solr/cloud/LeaderElector.java,
+                solr/core/src/java/org/apache/solr/cloud/Overseer.java, solr/core/src/java/org/apache/solr/cloud/RecoveryStrategy.java, solr/core/src/java/org/apache/solr/cloud/SyncStrategy.java, solr/core/src/java/org/apache/solr/cloud/ZkController.java,
+                solr/core/src/java/org/apache/solr/core/CoreContainer.java, solr/core/src/java/org/apache/solr/handler/admin/CoreAdminHandler.java, solr/core/src/java/org/apache/solr/handler/component/HttpShardHandlerFactory.java, solr/core/src/java/org/apache/solr/handler/component/RealTimeGetComponent.java,
+                solr/core/src/java/org/apache/solr/update/PeerSync.java, solr/core/src/java/org/apache/solr/update/SolrCmdDistributor.java, solr/core/src/java/org/apache/solr/update/UpdateLog.java, solr/core/src/java/org/apache/solr/update/processor/DistributedUpdateProcessor.java,
+                solr/core/src/test/org/apache/solr/cloud/BasicDistributedZk2Test.java, solr/core/src/test/org/apache/solr/cloud/ChaosMonkeyNothingIsSafeTest.java, solr/core/src/test/org/apache/solr/cloud/LeaderElectionIntegrationTest.java, solr/core/src/test/org/apache/solr/update/SolrCmdDistributorTest.java,
+                solr/solrj/src/java/org/apache/solr/client/solrj/request/CoreAdminRequest.java, solr/solrj/src/java/org/apache/solr/common/cloud/ZkStateReader.java, solr/solrj/src/java/org/apache/solr/common/util/ExecutorUtil.java, solr/test-framework/src/java/org/apache/solr/cloud/AbstractFullDistribZkTestBase.java,
+                solr/test-framework/src/java/org/apache/solr/cloud/ChaosMonkey.java, solr/test-framework/src/java/org/apache/solr/cloud/ZkTestServer.java, solr/solrj/src/java/org/apache/solr/common/util/ContentStreamBase.java, solr/solrj/src/test/org/apache/solr/common/util/ContentStreamTest.java,
+                lucene/core/src/java/org/apache/lucene/index/AtomicReader.java, lucene/core/src/java/org/apache/lucene/index/BufferedDeletesStream.java, lucene/core/src/java/org/apache/lucene/search/QueryWrapperFilter.java, lucene/core/src/java/org/apache/lucene/search/TermCollectingRewrite.java,
+                lucene/core/src/java/org/apache/lucene/util/FieldCacheSanityChecker.java, lucene/core/src/test/org/apache/lucene/index/TestCustomNorms.java, lucene/core/src/test/org/apache/lucene/index/TestDocsAndPositions.java, lucene/core/src/test/org/apache/lucene/index/TestParallelCompositeReader.java,
+                lucene/core/src/test/org/apache/lucene/index/TestTypePromotion.java, lucene/core/src/test/org/apache/lucene/search/TestCachingWrapperFilter.java, lucene/core/src/test/org/apache/lucene/search/TestNumericRangeQuery32.java, lucene/core/src/test/org/apache/lucene/search/TestNumericRangeQuery64.java,
+                lucene/core/src/test/org/apache/lucene/search/spans/TestPayloadSpans.java, lucene/queries/src/test/org/apache/lucene/queries/BooleanFilterTest.java, lucene/queries/src/test/org/apache/lucene/queries/TermsFilterTest.java, lucene/queryparser/src/test/org/apache/lucene/queryparser/xml/builders/TestNumericRangeFilterBuilder.java,
+                lucene/test-framework/src/java/org/apache/lucene/search/QueryUtils.java, lucene/test-framework/src/java/org/apache/lucene/search/ShardSearchingTestBase.java, solr/core/src/test/org/apache/solr/search/TestDocSet.java, lucene/core/src/java/org/apache/lucene/search/BooleanScorer2.java,
+                lucene/core/src/java/org/apache/lucene/index/FreqProxTermsWriterPerField.java were refactored.</p>
+            </li>
+          </ol>
+        </div>
+
+        <h2><a href="#" onclick="show_hide('a620'); return false">Modified Code Components</a> (97)</h2>
+        <div id="a620">
+          <ol>
+            <li>
+              <p> Modified methods newTerm(final), addTerm(final), and flush(String,FieldsConsumer,final) in FreqProxTermsWriterPerField.</p>
+            </li>
+            <li>
+              <p> New methods testMixupDocs(), and testMixupMultiValued() in TestPayloads. Modified methods testMixupDocs(), testMixupMultiValued(), and performTest(Directory).</p>
+            </li>
+            <li>
+              <p> Modified methods checkFields(Fields,Bits,int,FieldInfos,boolean,boolean), testTermVectors(FieldInfos,SegmentInfoPerCommit,SegmentReader,NumberFormat), testStoredFields(SegmentInfoPerCommit,SegmentReader,NumberFormat), and main(String) in
+                CheckIndex.</p>
+            </li>
+            <li>
+              <p> Modified methods assertIndexEquals(DirectoryReader,DirectoryReader), testFieldCacheReuseAfterReopen(), testUniqueTermCount(), and testNoTermsIndex() in TestDirectoryReader.</p>
+            </li>
+            <li>
+              <p> New methods testReaderChaining(), and tearDown() in TestReaderClosed.</p>
+            </li>
+            <li>
+              <p> Modified methods testSimpleHashMap(), and testConcurrentHashMap() in TestWeakIdentityMap.</p>
+            </li>
+            <li>
+              <p> Modified methods doTestNumbers(boolean), and testStackedTokens() in TestPostingsOffsets.</p>
+            </li>
+            <li>
+              <p> New methods testFields(Fields), and getCodec() in TestPostingsFormat. Removed methods verifyEnum(ThreadState,String,BytesRef,TermsEnum,IndexOptions,EnumSet
+                <Option>), test(), buildIndex(Directory,IndexOptions,boolean), createPostings(), afterClass(), testTerms(final,final,final), and testTermsOneThread(Fields,EnumSet
+                  <Option>,IndexOptions).</p>
+            </li>
+            <li>
+              <p> Modified methods assertDocsAndPositionsEnum(DocsAndPositionsEnum,DocsAndPositionsEnum), assertPositionsSkipping(int,DocsAndPositionsEnum,DocsAndPositionsEnum), assertFields(Fields,Fields,boolean), assertNorms(IndexReader,IndexReader), assertFieldStatistics(Fields,Fields),
+                assertTerms(Terms,Terms,boolean), and assertStoredFields(IndexReader,IndexReader) in TestDuelingCodecs.</p>
+            </li>
+            <li>
+              <p> Modified methods testTokenReuse(), and testPreAnalyzedField() in TestDocumentWriter.</p>
+            </li>
+            <li>
+              <p> Modified methods next(), skipTo(int), getPayload(), and isPayloadAvailable() in TermSpans.</p>
+            </li>
+            <li>
+              <p> Removed method hasPayload() from MappingMultiDocsAndPositionsEnum. Modified method getPayload().</p>
+            </li>
+            <li>
+              <p> Modified methods testTermVectorsFieldOrder(), and testKnownSetOfDocuments() in TestTermVectors.</p>
+            </li>
+            <li>
+              <p> Modified methods verifyEquals(DirectoryReader,DirectoryReader,String), and verifyEquals(Fields,Fields) in TestStressIndexing2.</p>
+            </li>
+            <li>
+              <p> Removed methods testMergeEmpty(), and testMergeRandom() from TestPrefixCodedTerms.</p>
+            </li>
+            <li>
+              <p> Modified methods printSegment(PrintWriter,SegmentInfoPerCommit), testPositionsSimple(), testRandomPositions(), testRandomDocs(), testLargeNumberOfPositions(), testDocValuesSimple(), getDocsAndPositions(AtomicReader,BytesRef,Bits), and testDocsAndPositionsEnumStart()
+                in TestDoc.</p>
+            </li>
+            <li>
+              <p> Removed methods iterator(), terms(String), size(), totalTermFreq(IndexReader,String,BytesRef), getMergedFieldInfos(IndexReader), getIndexedFields(IndexReader), MultiFieldsEnum(MultiFields,FieldsEnum,ReaderSlice), next(), and terms() from
+                MultiFields. Modified methods getFields(IndexReader), and getLiveDocs(IndexReader).</p>
+            </li>
+            <li>
+              <p> Removed methods getUniqueTermCount(), attributes(), next(), and terms() from Fields. Modified method iterator().</p>
+            </li>
+            <li>
+              <p> Removed methods queriesIterable(), and mergedIterator(final) from CoalescedDeletes. Modified method termsIterable().</p>
+            </li>
+            <li>
+              <p> Removed method BlockTreeTermsReader(Directory,FieldInfos,String,PostingsReaderBase,IOContext,String,int) from BlockTreeTermsReader. Modified method iterator().</p>
+            </li>
+            <li>
+              <p> Modified methods testSpanTermQuery(), testSpanFirst(), and testSpanNot() in TestPayloadSpans.</p>
+            </li>
+            <li>
+              <p> Modified methods testRange(int), testInverseRange(), testLeftOpenRange(int), and testRightOpenRange(int) in TestNumericRangeQuery64.</p>
+            </li>
+            <li>
+              <p> Modified methods testRange(int), testInverseRange(), testLeftOpenRange(int), and testRightOpenRange(int) in TestNumericRangeQuery32.</p>
+            </li>
+            <li>
+              <p> Modified methods testCachingWorks(), testNullDocIdSet(), testNullDocIdSetIterator(), and assertDocIdSetCacheable(IndexReader,Filter,boolean) in TestCachingWrapperFilter.</p>
+            </li>
+            <li>
+              <p> Modified methods assertValues(TestType,Directory,long,Type), and testMergeIncompatibleTypes() in TestTypePromotion.</p>
+            </li>
+            <li>
+              <p> Modified methods testFloatNorms(), and testIllegalCustomEncoder() in TestCustomNorms.</p>
+            </li>
+            <li>
+              <p> Modified methods getDocIdSet(final,final), and QueryWrapperFilter(Query) in QueryWrapperFilter.</p>
+            </li>
+            <li>
+              <p> New methods leaves(), getContext(), and totalTermFreq(Term) in IndexReader. Modified methods document(int), document(int,Set&lt;String&gt;), docFreq(Term), and docFreq(String,BytesRef).</p>
+            </li>
+            <li>
+              <p> New methods getContext(), docFreq(Term), totalTermFreq(Term), termDocsEnum(Term), and termPositionsEnum(Term) in AtomicReader. Removed methods getUniqueTermCount(), termDocsEnum(Bits,String,BytesRef), termDocsEnum(Bits,String,BytesRef,int),
+                termPositionsEnum(Bits,String,BytesRef), and termPositionsEnum(Bits,String,BytesRef,int). Modified methods docFreq(String,BytesRef), and totalTermFreq(String,BytesRef).</p>
+            </li>
+            <li>
+              <p> New methods testFailIfIndexWriterNotClosed(), and testFailIfIndexWriterNotClosedChangeLockFactory() in TestFailIfDirectoryNotClosed.</p>
+            </li>
+            <li>
+              <p> Modified methods MultiLevelSkipListReader(IndexInput,int,int,int), MultiLevelSkipListReader(IndexInput,int,int), seekChild(int), and loadSkipLevels() in MultiLevelSkipListReader.</p>
+            </li>
+            <li>
+              <p> Modified methods testClonedStreamsClosing(), and testRandomAccessClones() in TestCompoundFile.</p>
+            </li>
+            <li>
+              <p> Modified methods of(PackedInts.Format,int), blockCount(), valueCount(), decode(long,int,int,int,int), decode(byte,int,int,int,int), decode(long,int,long,int,int), decode(byte,int,long,int,int), encode(int,int,long,int,int), and encode(long,int,long,int,int)
+                in BulkOperation.</p>
+            </li>
+            <li>
+              <p> Modified methods stringField(FieldInfo,String), and getDocument() in DocumentStoredFieldVisitor.</p>
+            </li>
+            <li>
+              <p> New method testOldVersions() in TestBackwardsCompatibility. Modified methods testExactFileNames(), createIndex(String,boolean,boolean), searchIndex(Directory,String), changeIndexWithAdds(Random,Directory,String), changeIndexNoAdds(Random,Directory),
+                and testNumericFields().</p>
+            </li>
+            <li>
+              <p> Modified methods testNonCFSLeftovers(), and testFieldNamesChanged() in TestAddIndexes.</p>
+            </li>
+            <li>
+              <p> Modified methods bufferSize(IOContext), refill(), and seek(long) in BufferedIndexInput.</p>
+            </li>
+            <li>
+              <p> Modified methods updateDocument(final,final,final), doApplyAllDeletes(), and setApplyAllDeletes() in DocumentsWriter.</p>
+            </li>
+            <li>
+              <p> Modified methods copyFieldsWithDeletions(MergeState,final,final,int), and copyFieldsNoDeletions(MergeState,final,final,int) in Lucene40StoredFieldsWriter.</p>
+            </li>
+            <li>
+              <p> New method processField(FieldInfos.Builder,final,final,IndexableFieldType) in DocFieldProcessor. Modified method processDocument(FieldInfos.Builder).</p>
+            </li>
+            <li>
+              <p> New method testNegativeQueryBoost() in TestSearch. Modified method doTestSearch(Random,PrintWriter,boolean).</p>
+            </li>
+            <li>
+              <p> Removed method randomDocsEnum(String,BytesRef,List&lt;? extends AtomicReader&gt;,Bits) from TestReuseDocsEnum. Modified methods testReuseDocsEnumNoReuse(), testReuseDocsEnumSameBitsOrNull(), and testReuseDocsEnumDifferentReader().</p>
+            </li>
+            <li>
+              <p> Modified methods doPrevSetBit(BitSet,OpenBitSet), and doPrevSetBitLong(BitSet,OpenBitSet) in TestOpenBitSet.</p>
+            </li>
+            <li>
+              <p> Modified methods nlzBitUtilBasicLoop(int), and nlzLongBasicLoop(int) in TestBitUtil.</p>
+            </li>
+            <li>
+              <p> Modified methods test(), testAverageFunction(), testMaxFunction(), testMinFunction(), getClauses(), testLongerSpan(), and testComplexNested() in TestPayloadNearQuery.</p>
+            </li>
+            <li>
+              <p> Modified methods testFilteredDocIdSet(), and testNullIteratorFilteredDocIdSet() in TestDocIdSet.</p>
+            </li>
+            <li>
+              <p> Modified methods rollBackLast(int), testRepeatedRollBacks(), checkExpecteds(BitSet), setUp(), and testRollbackDeletionPolicy() in TestTransactionRollback.</p>
+            </li>
+            <li>
+              <p> Modified methods next(), firstPosition(), and nextPosition() in PhrasePositions.</p>
+            </li>
+            <li>
+              <p> Modified methods count(), and getRecomputedCount() in BitVector.</p>
+            </li>
+            <li>
+              <p> Modified method test1() in class TestParallelTermEnum.</p>
+            </li>
+            <li>
+              <p> Modified method CollectionStatistics(String,long,long,long,long) in class CollectionStatistics.</p>
+            </li>
+            <li>
+              <p> Modified method merge(final,final,final) in class PostingsConsumer.</p>
+            </li>
+            <li>
+              <p> Modified method parallel(Random,boolean) in class TestParallelCompositeReader.</p>
+            </li>
+            <li>
+              <p> Modified method getDocValuesType(final) in class Lucene40FieldInfosReader.</p>
+            </li>
+            <li>
+              <p> Modified method testTerms() in class TestSegmentReader.</p>
+            </li>
+            <li>
+              <p> Modified method applyQueryDeletes(Iterable
+                <QueryAndLimit>,ReadersAndLiveDocs,final) in class BufferedDeletesStream.</p>
+            </li>
+            <li>
+              <p> Modified method ParallelAtomicReader(boolean,AtomicReader,AtomicReader) in class ParallelAtomicReader.</p>
+            </li>
+            <li>
+              <p> Modified method deleteFile(String) in class IndexFileDeleter.</p>
+            </li>
+            <li>
+              <p> Modified method merge(MergeState,Fields) in class FieldsConsumer.</p>
+            </li>
+            <li>
+              <p> Modified method testCloneSafety() in class TestMultiMMap.</p>
+            </li>
+            <li>
+              <p> Modified method verifyCount(IndexReader) in class TestDocCount.</p>
+            </li>
+            <li>
+              <p> Modified method testOverrideMethods() in class TestFilterAtomicReader.</p>
+            </li>
+            <li>
+              <p> Modified method toString(String) in class RegexpQuery.</p>
+            </li>
+            <li>
+              <p> Modified method testIllegalCollectorOnReplay() in class TestCachingCollector.</p>
+            </li>
+            <li>
+              <p> Modified method performTest(int) in class TestLazyProxSkipping.</p>
+            </li>
+            <li>
+              <p> Modified method BooleanScorer2(BooleanWeight,boolean,int,List&lt;Scorer&gt;,List&lt;Scorer&gt;,List&lt;Scorer&gt;,int) in class BooleanScorer2.</p>
+            </li>
+            <li>
+              <p> Modified method doPrevSetBit(BitSet,FixedBitSet) in class TestFixedBitSet.</p>
+            </li>
+            <li>
+              <p> Modified method getAllDescendantReaderKeys(Object) in class FieldCacheSanityChecker.</p>
+            </li>
+            <li>
+              <p> Modified method testFuzziness() in class TestFuzzyQuery.</p>
+            </li>
+            <li>
+              <p> Modified method read(Directory,String,IOContext) in class Lucene40SegmentInfoReader.</p>
+            </li>
+            <li>
+              <p> Modified method getSpans(final,final,final) in classes SpanOrQuery, SpanNotQuery.</p>
+            </li>
+            <li>
+              <p> Modified method PackedReaderIterator(PackedInts.Format,int,int,DataInput,int) in class PackedReaderIterator.</p>
+            </li>
+            <li>
+              <p> Modified method testDeleteLeftoverFiles() in class TestIndexFileDeleter.</p>
+            </li>
+            <li>
+              <p> Modified method testMaxFailures() in class TestMaxFailuresRule.</p>
+            </li>
+            <li>
+              <p> Modified method initReader(AtomicReader) in class FieldCacheImpl.</p>
+            </li>
+            <li>
+              <p> Modified method assertSumDocFreq(IndexReader) in class TestSumDocFreq.</p>
+            </li>
+            <li>
+              <p> Modified method testNumericField() in class TestFieldsReader.</p>
+            </li>
+            <li>
+              <p> Modified method extractTerms(Set&lt;Term&gt;) in classes SpanPositionCheckQuery, SpanNearQuery.</p>
+            </li>
+            <li>
+              <p> Modified method docs(Bits,DocsEnum,int) in class MultiTermsEnum.</p>
+            </li>
+            <li>
+              <p> Modified method testSpansSkipTo() in class TestBasics.</p>
+            </li>
+            <li>
+              <p> Modified method testBasics() in class TestSimilarityProvider.</p>
+            </li>
+            <li>
+              <p> Modified method testCopyBytesWithThreads() in class TestCopyBytes.</p>
+            </li>
+            <li>
+              <p> Modified method storedFieldsIterator() in class Document.</p>
+            </li>
+            <li>
+              <p> Modified method read(Directory,String) in class SegmentInfos.</p>
+            </li>
+            <li>
+              <p> Modified method testRAMDirectoryNoLocking() in class TestLockFactory.</p>
+            </li>
+            <li>
+              <p> Modified method currentScore(int,String,int,int,int,float,float) in class MinPayloadFunction.</p>
+            </li>
+            <li>
+              <p> Modified method testMmapIndex() in class TestWindowsMMap.</p>
+            </li>
+            <li>
+              <p> Modified method testNRTAndCommit() in class TestNRTCachingDirectory.</p>
+            </li>
+            <li>
+              <p> Modified method testLongPostings() in class TestLongPostings.</p>
+            </li>
+            <li>
+              <p> Modified method fieldsProducer(SegmentReadState) in class Lucene40PostingsFormat.</p>
+            </li>
+            <li>
+              <p> Modified method tokenStream(Analyzer) in class Field.</p>
+            </li>
+            <li>
+              <p> Modified method clone() in classes DataInput, Lucene40TermVectorsReader.</p>
+            </li>
+            <li>
+              <p> Modified method isPayloadAvailable() in class MultiSpansWrapper.</p>
+            </li>
+            <li>
+              <p> Modified method testFixedPostings() in class TestCodecs.</p>
+            </li>
+            <li>
+              <p> Modified method testPayloadsPos0() in class TestPositionIncrement.</p>
+            </li>
+            <li>
+              <p> Modified method explain(int,String,int,float) in class PayloadFunction.</p>
+            </li>
+            <li>
+              <p> Modified method addAllDocVectors(Fields,MergeState) in class TermVectorsWriter.</p>
+            </li>
+          </ol>
+        </div>
+
+        <h2><a href="#" onclick="show_hide('a737'); return false">Known Issues</a> (17)</h2>
+        <div id="a737">
+          <ol>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4460" target="_blank">LUCENE-4460</a>: Test exception handling better/easier than testThreadInterruptDeadlock()</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4457" target="_blank">LUCENE-4457</a>: Combine MockRandomPostingsFormat and RandomCodec</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4454" target="_blank">LUCENE-4454</a>: QueryParser throws exception for string queries ending with ! (exclamation)</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4433" target="_blank">LUCENE-4433</a>: kuromoji ToStringUtil.getRomanization</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4405" target="_blank">LUCENE-4405</a>: java.lang.NumberFormatException: For input string: &quot;4g3 (1)&quot; </p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4403" target="_blank">LUCENE-4403</a>: sharpen javadocs for DISI.docID() when unpositioned</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4379" target="_blank">LUCENE-4379</a>: Add AttributeFactory parameter to TokenizerFactory.create()</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4369" target="_blank">LUCENE-4369</a>: StringFields name is unintuitive and not helpful</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4363" target="_blank">LUCENE-4363</a>: o.a.l.codecs should be pruned to abstract apis</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4341" target="_blank">LUCENE-4341</a>: java.lang.ArrayIndexOutOfBoundsException in BooleanScorer2.score</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4331" target="_blank">LUCENE-4331</a>: XXXDocValuesField javadocs are confusing about storing</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4326" target="_blank">LUCENE-4326</a>: TestDocumentsWriterStallControl stalls</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4318" target="_blank">LUCENE-4318</a>: facets module has many tokenstreams that never call clearAttributes</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4309" target="_blank">LUCENE-4309</a>: Not obvious how to find mailing lists</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4219" target="_blank">LUCENE-4219</a>: PayloadNearQuery bugs</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-4123" target="_blank">LUCENE-4123</a>: Add CachingRAMDirectory</p>
+            </li>
+            <li>
+              <p><a href="https://issues.apache.org/jira/browse/LUCENE-3849" target="_blank">LUCENE-3849</a>: position increments should be implemented by TokenStream.end()</p>
+            </li>
+          </ol>
+        </div>
+
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

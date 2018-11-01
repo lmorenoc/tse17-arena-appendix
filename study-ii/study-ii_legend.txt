@@ -1,0 +1,72 @@
+*type*
+(What is your current occupation?)
+
+*experience*
+(For how many years have you developed software?)
+
+*RNusage*
+(How often do you use release notes?)
+	1 - Never
+	2 - Rarely
+	3 - Occasionally
+	4 - Frequently
+
+*RNcreation*
+(Have you ever created release notes?)
+	1 - I have never done it
+	2 - I have done it once or twice
+	3 - I have done a few times
+	4 - I have done it many times
+
+*Included Information*
+(What kind of content do you include in release notes?)
+	0 - null
+	1 - Never
+	2 - Rarely
+	3 - Sometimes
+	4 - Often
+
+*RNcreationTime*
+(How much time does it take to create a release note?)
+	1 - Less than one hour
+	2 - Between one and four hours
+	3 - Between four and eight hours
+	4 - More than eight hours
+
+*RNcreationDiff*
+(How difficult is to create a release note?)
+	1 - Very Easy
+	2 - Easy
+	3 - Difficult
+	4 - Very Difficult
+
+*A* Arena
+*O* Original
+*CC* Code Components
+*AC* Apache Commons Collections
+*L* Apache Lucene
+
+*AC_familiarity*
+(How familiar are you with Apache Commons Collections?)
+	1 - Not familiar at all
+	2 - Slightly familiar
+	3 - Familiar
+	4 - Very Familiar
+
+*Importance of Info*
+(How important are the following issues?)
+	0 - null
+	1 - Not at all important
+	2 - Unimportant
+	3 - Important
+	4 - Very Important
+
+*L_familiarity*
+(How familiar are you with Apache Lucene?)
+	1 - Not familiar at all
+	2 - Slightly familiar
+	3 - Familiar
+	4 - Very Familiar
+
+
+

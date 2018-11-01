@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html><head><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>Automatic RElease Notes generAtor - SMOS 2.0</title>
+<script type="text/javascript">function show_hide (block_id){new_state = (document.getElementById(block_id).style.display == 'block') ? 'none' : 'block';document.getElementById(block_id).style.display = new_state;}</script>
+<style type="text/css">
+
+#a0 { display: none; }
+#a1 { display: none; }
+#a2 { display: none; }
+#a3 { display: none; }
+#a4 { display: none; }
+#a5 { display: none; }
+#a6 { display: none; }
+#a7 { display: none; }
+#a8 { display: none; }
+#a9 { display: none; }
+#a10 { display: none; }
+#a11 { display: none; }
+#a12 { display: none; }
+#a13 { display: none; }
+#a14 { display: none; }
+#a15 { display: none; }
+#a16 { display: none; }
+#a17 { display: none; }
+#a18 { display: none; }
+#a19 { display: none; }
+#a20 { display: none; }
+#a21 { display: none; }
+#a22 { display: none; }
+#a23 { display: none; }
+#a24 { display: none; }
+#a25 { display: none; }
+#a26 { display: none; }
+#a27 { display: none; }
+#a28 { display: none; }
+#a29 { display: none; }
+#a30 { display: none; }
+#a31 { display: none; }
+#a32 { display: none; }
+#a33 { display: none; }
+#a34 { display: none; }
+#a35 { display: none; }
+#a36 { display: none; }
+#a37 { display: none; }
+#a38 { display: none; }
+#a39 { display: none; }
+#a40 { display: none; }
+#a41 { display: none; }
+#a42 { display: none; }
+#a43 { display: none; }
+#a44 { display: none; }
+#a45 { display: none; }
+#a46 { display: none; }
+#a47 { display: none; }
+#a48 { display: none; }
+a:link {text-decoration: underline; color:#555; font-family:"Courier New", Courier, monospace; font-size:14px}
+a:visited {text-decoration: underline; color:#555; font-family:"Courier New", Courier, monospace; font-size:14px}
+a:active {text-decoration: underline; color:#000; font-family:"Courier New", Courier, monospace; font-size:14px}
+a:hover {text-decoration: underline; color: #000; font-family:"Courier New", Courier, monospace; font-size:14px}
+h1{color:#800; font-family:"Courier New", Courier, monospace; font-size:30px}
+h2{color:#000; font-family:"Courier New", Courier, monospace; font-size:16px; font-style:italic}
+h3{color:#800; font-family:"Courier New", Courier, monospace; font-size:22px}
+p{color:#000; font-family:"Courier New", Courier, monospace; font-size:12px}
+</style>
+</head>
+<body style="background-color:#EEE">
+<table align="center" style="border-width:0px; margin: 0px auto;" width="90%">
+<tr><td bgcolor="#BBBBBB" style="padding-left:20px; padding-right:20px"><h3>Release Note for SMOS 2.0</h3></td></tr>
+<tr><td bgcolor="#DDDDDD" style="padding-left:20px; padding-right:20px">
+<h2>Improvements</h2>
+<ul>
+<li><a href="#" onclick="show_hide('a1'); return false">SMOS4 Course of Studies not shown in alphabetic order
+</a></li>
+<div id="a1">
+<li style="list-style-type:none"><ul type="circle">
+<li><p>Modified method getCourseOfStudyList() in class ManagerCourseOfStudy.
+</p></li>
+</ul></li>
+</div>
+<li><a href="#" onclick="show_hide('a3'); return false">SMOS9 Implement the Singleton design pattern
+</a></li>
+<div id="a3">
+<li style="list-style-type:none"><ul type="circle">
+<li><p>New method getInstance() in ManagerClassroom. Modified methods ManagerClassroom(), delete(Classroom), getClassroomsByStudent(User), getClassroomByUserAcademicYear(User,int), and getClassroomsByTeacher(User).
+</p></li>
+<li><p>New method getInstance() in ManagerCourseOfStudy. Modified methods ManagerCourseOfStudy(), delete(CourseOfStudy), assignTeachingAsCourseOfStudy(CourseOfStudy,Teaching), and removeTeachingAsCourseOfStudy(CourseOfStudy,Teaching).
+</p></li>
+<li><p>New method getInstance() in ManagerRegister. Modified methods ManagerRegister(), getRegisterByClassIDAndDate(int,Date), and getRegisterLineByClassIdDateUserId(int,Date,int).
+</p></li>
+<li><p>New method getInstance() in ManagerTeaching. Modified methods ManagerTeaching(), delete(Teaching), and loadRecordFromRs(ResultSet).
+</p></li>
+<li><p>New method getInstance() in ManagerUser. Modified methods ManagerUser(), and delete(User).
+</p></li>
+<li><p>New method getInstance() in class ManagerVotes.
+</p></li>
+<li><p>Modified method doGet(HttpServletRequest,HttpServletResponse) in classes ServletDeleteClassroom, ServletInsertClassroom, ServletShowClassroomDetails, ServletShowClassroomList, ServletAddRemoveTeachingsAsCourseOfStudy, ServletCourseOfStudyTeachings, ServletDeleteCourseOfStudy, ServletShowCourseOfStudyDetails, ServletDeleteJustify, ServletDeleteNote, ServletInsertAbsenceAta, ServletInsertDelayAta, ServletInsertJustify, ServletInsertNewNote, ServletLoadClassForTeacher, ServletShowClassroomManagement, ServletShowJustifyDetails, ServletShowJustifyList, ServletShowNoteDetails, ServletShowNoteList, ServletShowRegister, ServletUpdateJustify, ServletDeleteReport, ServletInsertReport, ServletLoadReport, ServletLoadTeachingList, ServletShowClassroomByAcademicYear, ServletShowReports, ServletShowReportStudent, ServletShowStudentByClassForTeacher, ServletShowStudentsByClass, ServletUpdateReport, ServletDeleteTeaching, ServletShowTeachingDetails, ServletShowTeachingList, ServletUpdateTeaching, ServletAddTeachingAsTeacher, ServletAlterPersonalDate, ServletAssignRole, ServletAssignStudentClassroom, ServletDeleteUser, ServletInsertUser, ServletLoadClassByAccademicYear, ServletLoadYear, ServletLogin, ServletRemoveStudentClassroom, ServletRemoveTeachingAsTeacher, ServletReportTeachings, ServletShowTeacherTeachingFormByClass, ServletShowUserDetails, ServletShowUserList, ServletShowUserRoleForm.
+</p></li>
+</ul></li>
+</div>
+<li><a href="#" onclick="show_hide('a11'); return false">SMOS10 Days between dates is useless
+</a></li>
+<div id="a11">
+<li style="list-style-type:none"><ul type="circle">
+<li><p>Method daysBetween(Date,Date) in Utility has been deprecated.
+</p></li>
+</ul>
+</div>
+</ul>
+<h2>New Features</h2>
+<ul>
+<li><a href="#" onclick="show_hide('a15'); return false">SMOS2 Add the field "Description" to the Course of Studies
+</a></li>
+<div id="a15">
+<li style="list-style-type:none"><ul type="circle">
+<li><p>New field description of type String in CourseOfStudy. New methods getDescription(), and setDescription(String) in the same class.
+</p></li>
+<li><p>Modified methods insert(CourseOfStudy), and loadRecordFromRs(ResultSet) in ManagerCourseOfStudy.
+</p></li>
+<li><p>Modified method doGet(HttpServletRequest,HttpServletResponse) in class ServletInsertCourseOfStudy.
+</p></li>
+</ul></li>
+</div>
+<li><a href="#" onclick="show_hide('a19'); return false">SMOS3 Add the field "Book" to the Teachings
+</a></li>
+<div id="a19">
+<li style="list-style-type:none"><ul type="circle">
+<li><p>New field book of type String in Teaching. New methods getBook(), and setBook(String) in the same class.
+</p></li>
+<li><p>Modified methods insert(Teaching), update(Teaching), and loadRecordFromRs(ResultSet) in ManagerTeaching.
+</p></li>
+<li><p>Modified method doGet(HttpServletRequest,HttpServletResponse) in class ServletInsertTeaching.
+</p></li>
+</ul></li>
+</div>
+<li><a href="#" onclick="show_hide('a23'); return false">SMOS6 Allow students parents to visualize the school report, justification, absences, and disciplinary notes of their sons
+</a></li>
+<div id="a23">
+<li style="list-style-type:none"><ul type="circle">
+<li><p>New class ServletShowReportsParent extending HttpServlet. This boundary class communicates mainly with HttpServletRequest, HttpServletResponse, and HttpSession. It allows doing p request, and doing post.
+</p></li>
+<li><p>New class ServletShowJustificationListToParents extending HttpServlet. This boundary class communicates mainly with HttpServletRequest, HttpServletResponse, and HttpSession. It allows doing p request, and doing post.
+</p></li>
+<li><p>New class ServletShowNoteListToParents extending HttpServlet. This boundary class communicates mainly with HttpServletRequest, HttpServletResponse, and HttpSession. It allows doing p request, and doing post.
+</p></li>
+<li><p>New class ServletShowRegisterToParents extending HttpServlet. This boundary class communicates mainly with HttpServletRequest, HttpServletResponse, and HttpSession. It allows doing p request, and doing post.
+</p></li>
+<li><p>New class ServletLoadStudentForParent extending HttpServlet. This boundary class communicates mainly with HttpServletRequest, HttpServletResponse, and HttpSession. It allows doing post, and doing p request.
+</p></li>
+<li><p>New class ServletAssignParentToStudent extending HttpServlet. This boundary class communicates mainly with HttpServletRequest, HttpServletResponse, and HttpSession. It allows doing p request, and doing post.
+</p></li>
+<li><p>New field PARENT of type int in Role.
+</p></li>
+<li><p>New methods getIdParent(), and setIdParent(int) in User.
+</p></li>
+<li><p>New methods getParents(), isParent(User), assignParent(User,int), and removeParent(User) in ManagerUser.
+</p></li>
+<li><p>Modified method doGet(HttpServletRequest,HttpServletResponse) in classes ServletAlterPersonalDate, ServletLogin, ServletShowUserRoleForm.
+</p></li>
+</ul></li>
+</div>
+<li><a href="#" onclick="show_hide('a34'); return false">SMOS8 Allow the configuration of the SMOS parameters
+</a></li>
+<div id="a34">
+<li style="list-style-type:none"><ul type="circle">
+<li><p>New class ServletInitialize extending HttpServlet. This boundary class communicates mainly with ServletConfig, ServletException, and Utility, and consists mostly of mutator methods. It allows initing servlet config.
+</p></li>
+</ul>
+</div>
+</ul>
+<h2>Bug Fixes</h2>
+<ul>
+<li><a href="#" onclick="show_hide('a38'); return false">SMOS1 Assign Teaching to User does not show in alphabetic order
+</a></li>
+<div id="a38">
+<li style="list-style-type:none"><ul type="circle">
+<li><p>Modified method getTeachingsByClassroomId(int) in class ManagerTeaching.
+</p></li>
+</ul></li>
+</div>
+<li><a href="#" onclick="show_hide('a40'); return false">SMOS5 DuplicateEntityException when inserting justification
+</a></li>
+<div id="a40">
+<li style="list-style-type:none"><ul type="circle">
+<li><p>Modified method exists(Justify) in class ManagerRegister.
+</p></li>
+</ul></li>
+</div>
+<li><a href="#" onclick="show_hide('a42'); return false">SMOS7 User update does not work
+</a></li>
+<div id="a42">
+<li style="list-style-type:none"><ul type="circle">
+<li><p>Modified method doGet(HttpServletRequest,HttpServletResponse) in class ServletUpdateUser.
+</p></li>
+</ul></li>
+</div>
+<li><a href="#" onclick="show_hide('a44'); return false">SMOS11 Votes should not be negative or higher than 10
+</a></li>
+<div id="a44">
+<li style="list-style-type:none"><ul type="circle">
+<li><p>Modified methods setWritten(int), setOral(int), and setLaboratory(int) in Votes.
+</p></li>
+</ul>
+</div>
+</ul>
+<h2>Changes to Used Libraries</h2>
+<ul type="circle">
+<li><p>SMOS2.0 uses itext 2.0.8 instead of 1.4.8, and displaytag 1.3 instead of 1.1.
+</p></li>
+</ul>
+</div>
+</td></tr>
+</table>
+</body>
+</html>
