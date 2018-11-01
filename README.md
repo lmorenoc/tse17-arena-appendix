@@ -12,7 +12,7 @@ Next are the artifacts related to this study:
 
 | Description | Download |
 | --- | --- |
-| **Exploratory study results.** Spreadsheet file reporting the system, release identifier, and content classification of 990 release notes.  | [XLSX] |
+| **Exploratory study results.** Spreadsheet file reporting the system, release identifier, and content classification of 990 release notes.  | [[XLSX]](../exploratory-study.xlsx) |
 
 ## ARENA's Design
 In order to generate the textual content of a release note, ARENA defines a set of templates according to the kind of artifact and kind of change to be described.
